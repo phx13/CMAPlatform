@@ -1,0 +1,3402 @@
+[
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-16 18:00:00",
+    "serverurl": "",
+    "title": "17日00时早间会商提示",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_CONFER_SFER_E99_ACHN_LNO_P9_20191017000000000.PPT"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "北京气象局",
+    "cdate": "2019-10-17 06:20:00",
+    "serverurl": "",
+    "title": "17日06时降水量图表",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_BJMA_SJCF_SFER_ERAIN_ABJ_LNO_P9_20191017060800000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 07:30:00",
+    "serverurl": "",
+    "title": "重大气象信息专报（2019年第172期）",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重大气象信息专报（2019年第172期）.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-17 07:40:00",
+    "serverurl": "",
+    "title": "17日08时天气公报-新疆将有雨雪和大风降温天气华北中南部大气扩散条件转差",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191017080000000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-17 07:50:00",
+    "serverurl": "",
+    "title": "每日气象专报-290",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/每日气象专报第290期.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-17 08:00:00",
+    "serverurl": "",
+    "title": "17日07时每日天气摘报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_IMCL_SFER_EME_ACHN_LNO_P9_20191017070000000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "北京气象局",
+    "cdate": "2019-10-17 08:15:00",
+    "serverurl": "",
+    "title": "17日08时降水量图表",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_BJMA_SJCF_SFER_ERAIN_ABJ_LNO_P9_20191017080600000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:25:00",
+    "serverurl": "",
+    "title": "气象信息快报（2019年第283期）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报（2019年第283期）.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "信息中心",
+    "cdate": "2019-10-17 08:35:00",
+    "serverurl": "",
+    "title": "气象数据服务快报-20191017",
+    "type": "数据服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/气象数据服务快报-20191017.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-17 08:40:00",
+    "serverurl": "",
+    "title": "长江流域天气公报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长江流域天气公报2019年10月17日.pdf"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "山西省气象局",
+    "cdate": "2019-10-17 08:40:00",
+    "serverurl": "",
+    "title": "天气快报2019第222期（20191017）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/天气快报2019第222期（20191017）.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:40:00",
+    "serverurl": "",
+    "title": "陕西省气象局关于2月16-22日重大气象灾害（雨雪冰冻）IV级应急响应总结报告",
+    "type": "低温雨雪冰冻",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7b72684aeee51e6c406fa"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:45:00",
+    "serverurl": "",
+    "title": "陕西省气象局关于7月21-23日暴雨Ⅳ级应急总结报告",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7b77984aeee51e6c40702"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:45:00",
+    "serverurl": "",
+    "title": "陕西省气象局关于8月5-7日暴雨Ⅳ级应急总结报告",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7b7ce84aeee51e6c40706"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:45:00",
+    "serverurl": "",
+    "title": "陕西省气象局关于8月8-9日暴雨Ⅲ级应急总结报告",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7b80284aeee51e6c4070a"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:50:00",
+    "serverurl": "",
+    "title": "陕西省气象局关于9月15日暴雨Ⅲ级应急服务日报告",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7b8c084aeee51e6c40712"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:50:00",
+    "serverurl": "",
+    "title": "陕西省气象局关于9月11日暴雨Ⅲ级应急服务日报告",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7b90284aeee51e6c40716"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:50:00",
+    "serverurl": "",
+    "title": "陕西省气象局关于森林火灾气象服务保障Ⅳ级应急响应工作情况的报告（4月9日）",
+    "type": "森林草原火灾",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7b95784aeee51e6c4071a"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:50:00",
+    "serverurl": "",
+    "title": "陕西省气象局关于森林火灾气象服务保障Ⅲ级应急响应工作情况的报告（4月8日）",
+    "type": "森林草原火灾",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7b98d84aeee51e6c4071e"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:55:00",
+    "serverurl": "",
+    "title": "陕西省气象局2019年1月1-7日霾Ⅳ级应急服务总结报告",
+    "type": "霾",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7ba4784aeee51e6c40723"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-17 08:55:00",
+    "serverurl": "",
+    "title": "陕西省气象局2019年1月11-15日霾Ⅳ级应急服务总结报告",
+    "type": "霾",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7ba7684aeee51e6c40728"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-17 08:55:00",
+    "serverurl": "",
+    "title": "湖北省气象局2019年6月17-6月22日IV级应急响应（暴雨）服务总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7ba9f84aeee51e6c4072c"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-17 09:00:00",
+    "serverurl": "",
+    "title": "湖北省气象局2019年7月16-7月26日IV级应急响应（防汛）服务总结",
+    "type": "其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7bb2584aeee51e6c40730"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-17 09:00:00",
+    "serverurl": "",
+    "title": "湖北省气象局2019年8月6-8月10日山洪地质灾害气象服务保障Ⅳ级应急响应服务总结",
+    "type": "地质灾害",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7bbaa84aeee51e6c40734"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-17 09:00:00",
+    "serverurl": "",
+    "title": "湖北省气象局2019年8月19日-28日气象灾害（高温）IV级应急响应服务总结",
+    "type": "高温",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7bc1584aeee51e6c40739"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 09:30:00",
+    "serverurl": "",
+    "title": "广东省气象局4月18-20日气象灾害（暴雨）Ⅲ级应急响应过程总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c2d584aeee51e6c40749"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 09:30:00",
+    "serverurl": "",
+    "title": "广东省气象局5月27日-6月3日气象灾害（暴雨）Ⅲ级应急响应过程总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c2fb84aeee51e6c40752"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 09:35:00",
+    "serverurl": "",
+    "title": "广东省气象局6月10-14日暴雨应急响应过程总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c33c84aeee51e6c40759"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 09:35:00",
+    "serverurl": "",
+    "title": "广东省气象局7月9-11日暴雨应急响应过程总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c37a84aeee51e6c40766"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 09:35:00",
+    "serverurl": "",
+    "title": "广东省气象局关于台风“韦帕”应急响应的总结",
+    "type": "台风, 暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c3c184aeee51e6c4076f"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 09:35:00",
+    "serverurl": "",
+    "title": "广东省气象局台风“白鹿”Ⅲ级和暴雨Ⅲ级应急响应过程总结",
+    "type": "台风, 暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c3f984aeee51e6c40776"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 09:35:00",
+    "serverurl": "",
+    "title": "广东省气象局关于6月中上旬强降水过程气象服务情况的报告",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c43b84aeee51e6c4077f"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 09:40:00",
+    "serverurl": "",
+    "title": "2019年广东省气象局汛期气象服务工作总结",
+    "type": "其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c48a84aeee51e6c40785"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-17 10:00:00",
+    "serverurl": "",
+    "title": "湖南省7月6-10日强降雨天气过程气象服务总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7c9b184aeee51e6c40797"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-17 10:05:00",
+    "serverurl": "",
+    "title": "湖南省气象局关于2019年6月5-10日强降雨天气过程气象服务总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7ca3d84aeee51e6c4079b"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-17 10:05:00",
+    "serverurl": "",
+    "title": "湖南省气象局关于2019年6月20-24日强降雨天气过程气象服务总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7ca9984aeee51e6c4079f"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-17 10:05:00",
+    "serverurl": "",
+    "title": "湖南省气象局关于7月7日至14日两次强降雨过程气象预报服务情况的报告",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7cb2d84aeee51e6c407a5"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-17 10:10:00",
+    "serverurl": "",
+    "title": "湖南省气象局关于2019年8月25-27日台风暴雨天气过程气象服务总结",
+    "type": "台风, 暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7cbc684aeee51e6c407ab"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-17 10:15:00",
+    "serverurl": "",
+    "title": "17日至20日较强冷空气影响北方地区今明两天新疆北部将有雨雪和大风降温天气",
+    "type": "两办刊物信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_SDMS_SFER_EME_ACHN_LNO_P9_20191017100400000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "探测中心",
+    "cdate": "2019-10-17 10:15:00",
+    "serverurl": "",
+    "title": "综合气象观测日报20191017",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/综合观测气象日报20191017.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-17 10:15:00",
+    "serverurl": "",
+    "title": "17日10时天气急件",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GDMA_SJCF_SFER_EME_AGD_LNO_P9_20191017100300000.DOC"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-17 10:15:00",
+    "serverurl": "",
+    "title": "湖南省森林火灾气象保障服务Ⅲ级应急响应情况总结",
+    "type": "森林草原火灾",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da7cd9d84aeee51e6c407bd"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-17 10:20:00",
+    "serverurl": "",
+    "title": "未来三天华北黄淮等地有霾或大雾天气需防范对人体健康和交通出行的不利影响",
+    "type": "两办刊物信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_SDMS_SFER_EME_ACHN_LNO_P9_20191017100900000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-17 10:25:00",
+    "serverurl": "",
+    "title": "长三角区域环境空气质量预报2019年第290期",
+    "type": "环境气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长三角区域环境空气质量预报2019年第290期.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-17 10:30:00",
+    "serverurl": "",
+    "title": "17日02时中期天气预报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_MTFC_SFER_EME_ACHN_L88_P9_20191017020000000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气候中心",
+    "cdate": "2019-10-17 11:15:00",
+    "serverurl": "",
+    "title": "17日00时气候干旱监测图",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NCC_ZKI_SHLSK_ECI_ACHN_L88_PB_20191017000000000.png"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "北京气象局",
+    "cdate": "2019-10-17 11:15:00",
+    "serverurl": "",
+    "title": "17日11时降水量图表",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_BJMA_SJCF_SFER_ERAIN_ABJ_LNO_P9_20191017110500000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "福建省气象局",
+    "cdate": "2019-10-17 11:45:00",
+    "serverurl": "",
+    "title": "海上大风预警解除",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重要气象信息专报19110(大风解除）.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-17 13:15:00",
+    "serverurl": "",
+    "title": "预警信号2019135（大风蓝色预警)",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/预警信号2019135（大风蓝色预警).docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-17 13:15:00",
+    "serverurl": "",
+    "title": "预警信号2019136（寒潮蓝色预警）",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/预警信号2019136（寒潮蓝色预警）.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-17 13:15:00",
+    "serverurl": "",
+    "title": "预警信号2019137（霜冻蓝色预警）",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/预警信号2019137（霜冻蓝色预警）.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气候中心",
+    "cdate": "2019-10-17 14:30:00",
+    "serverurl": "",
+    "title": "重要气候信息2019年第47期（总第1389期）-2019年生长季我国植被长势总体偏好，但较2018年略偏差",
+    "type": "重要气候信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/重要气候信息2019年第47期（总第1389期）-2019年生长季我国植被长势总体偏好，但较2018年略偏差.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "北京气象局",
+    "cdate": "2019-10-17 14:30:00",
+    "serverurl": "",
+    "title": "17日14时降水量图表",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_BJMA_SJCF_SFER_ERAIN_ABJ_LNO_P9_20191017141600000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "河北省气象局",
+    "cdate": "2019-10-17 14:45:00",
+    "serverurl": "",
+    "title": "河北省2019年汛期气象服务工作总结",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河北省2019年汛期气象服务工作总结.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "河北省气象局",
+    "cdate": "2019-10-17 14:45:00",
+    "serverurl": "",
+    "title": "河北省气象局8月12日应急情况报告（日摘报）",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河北省气象局8月12日应急情况报告（日摘报）.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "河北省气象局",
+    "cdate": "2019-10-17 14:45:00",
+    "serverurl": "",
+    "title": "河北省气象局2019年4月2-9日森林草原防火气象服务保障工作总结",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河北省气象局2019年4月2-9日森林草原防火气象服务保障工作总结.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "河北省气象局",
+    "cdate": "2019-10-17 14:50:00",
+    "serverurl": "",
+    "title": "河北省气象局2019年7月5-7日暴雨过程应对工作总结",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河北省气象局2019年7月5-7日暴雨过程应对工作总结.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "河北省气象局",
+    "cdate": "2019-10-17 14:50:01",
+    "serverurl": "",
+    "title": "河北省气象局2019年7月28-29日暴雨过程应对工作总结",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河北省气象局2019年7月28-29日暴雨过程应对工作总结.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "河北省气象局",
+    "cdate": "2019-10-17 14:50:01",
+    "serverurl": "",
+    "title": "河北省气象局2019年8月10-13日暴雨、台风过程应对工作总结",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河北省气象局2019年8月10-13日暴雨、台风过程应对工作总结.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "河北省气象局",
+    "cdate": "2019-10-17 14:50:01",
+    "serverurl": "",
+    "title": "河北省气象局关于庆祝中华人民共和国成立70周年活动气象保障服务特别工作状态的总结",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河北省气象局关于庆祝中华人民共和国成立70周年活动气象保障服务特别工作状态的总结.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "河北省气象局",
+    "cdate": "2019-10-17 14:50:01",
+    "serverurl": "",
+    "title": "河北省气象局关于应对台风“利奇马”的报告",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河北省气象局关于应对台风“利奇马”的报告.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "浙江省气象局",
+    "cdate": "2019-10-17 15:20:00",
+    "serverurl": "",
+    "title": "浙江省气象局9月29日至10月2日台风“米娜”气象服务总结",
+    "type": "台风",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da8141a84aeee51e6c40870"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "浙江省气象局",
+    "cdate": "2019-10-17 15:20:00",
+    "serverurl": "",
+    "title": "浙江省气象局2019年汛期气象服务工作总结",
+    "type": "其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da8152c84aeee51e6c40884"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "天津气象局",
+    "cdate": "2019-10-17 16:25:00",
+    "serverurl": "",
+    "title": "气象信息快报111期-未来一周天气预报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报第111期-周报.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-17 16:45:02",
+    "serverurl": "",
+    "title": "台风“利奇马”预报服务工作总结",
+    "type": "台风",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da8285e84aeee51e6c408c0"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-17 17:00:00",
+    "serverurl": "",
+    "title": "2019年10月17日太湖地区气象卫星监测预警日报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191017太湖地区气象卫星监测预警日报--第200期.docx"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-17 17:00:00",
+    "serverurl": "",
+    "title": "2019年10月17日秸秆焚烧气象卫星监测报告",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191017秸秆焚烧气象卫星监测报告1929.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-17 17:05:00",
+    "serverurl": "",
+    "title": "上海市气象局2019年度汛期气象服务工作总结",
+    "type": "台风, 暴雨洪涝, 海上大风, 雷雨大风强对流",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da82ccd84aeee51e6c408d6"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-17 17:10:00",
+    "serverurl": "",
+    "title": "17日20时全国森林火险气象预报（警报）",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_FHLF_SFER_EME_ACHN_L88_P9_20191017200002400.DOC"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-17 17:15:00",
+    "serverurl": "",
+    "title": "上海市气象局2019年春运气象服务工作总结",
+    "type": "专项（春运、高考、两会等）",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da82f9e84aeee51e6c408e4"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "西藏气象局",
+    "cdate": "2019-10-17 17:25:00",
+    "serverurl": "",
+    "title": "西藏8月1日~2日强降水预警过程评估",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da8322984aeee51e6c408e9"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "西藏气象局",
+    "cdate": "2019-10-17 17:25:00",
+    "serverurl": "",
+    "title": "西藏自治区8月7日~8日强降水预警过程评估",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da8325c84aeee51e6c408f0"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-17 17:30:00",
+    "serverurl": "",
+    "title": "17日18时天气公报-新疆将有雨雪和大风降温天气华北中南部大气扩散条件转差",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191017180000000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "西藏气象局",
+    "cdate": "2019-10-17 17:35:00",
+    "serverurl": "",
+    "title": "西藏2019年汛期重大转折性天气过程总结",
+    "type": "干旱",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da8342184aeee51e6c40903"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-17 17:55:00",
+    "serverurl": "",
+    "title": "17日18时全国主要公路气象预报",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_TRFC_SFER_EME_ACHN_L88_P9_20191017180002400.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-17 18:00:00",
+    "serverurl": "",
+    "title": "18日00时早间会商提示",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_CONFER_SFER_E99_ACHN_LNO_P9_20191018000000000.PPT"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-17 18:05:01",
+    "serverurl": "",
+    "title": "2019年新疆秋收秋种气象服务专报第12期",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019年新疆秋收秋种气象服务专报第12期.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气候中心",
+    "cdate": "2019-10-17 18:10:01",
+    "serverurl": "",
+    "title": "重要气候信息2019年第48期（总第1390期）-鄂湘赣皖闽发生近40年来最为严重的伏秋连旱",
+    "type": "重要气候信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/重要气候信息2019年第48期（总第1390期）-鄂湘赣皖闽发生近40年来最为严重的伏秋连旱.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-17 18:45:00",
+    "serverurl": "",
+    "title": "武汉军运会开幕式期间为晴天 有利于各项活动开展",
+    "type": "两办刊物信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_SDMS_SFER_EME_ACHN_LNO_P9_20191017183800000.doc"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 06:00:00",
+    "serverurl": "",
+    "title": "17日22时大雾警报-中央气象台10月18日06时发布大雾黄色预警",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_IMAT_SFER_EFGA_ACHN_L88_P9_20191017220002400.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 07:45:00",
+    "serverurl": "",
+    "title": "18日08时天气公报-华北中南部大气扩散条件转差新疆将有雨雪和大风降温天气",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191018080000000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-18 07:55:00",
+    "serverurl": "",
+    "title": "每日气象专报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/每日气象专报第291期.pdf"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 08:05:00",
+    "serverurl": "",
+    "title": "18日07时每日天气摘报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_IMCL_SFER_EME_ACHN_LNO_P9_20191018070000000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-18 08:10:00",
+    "serverurl": "",
+    "title": "气象信息快报（2019年第284期）",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报（2019年第284期）.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-18 08:35:00",
+    "serverurl": "",
+    "title": "长江流域天气公报",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长江流域天气公报2019年10月18日.pdf"
+  },
+  {
+    "date": "2019-10-17",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-18 08:35:00",
+    "serverurl": "",
+    "title": "长江流域天气公报",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长江流域天气公报2019年10月17日.pdf"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 08:45:00",
+    "serverurl": "",
+    "title": "武汉军运会开幕式期间为晴天 有利于各项活动开展",
+    "type": "两办刊物信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_SDMS_SFER_EME_ACHN_LNO_P9_20191018083700000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "信息中心",
+    "cdate": "2019-10-18 08:50:00",
+    "serverurl": "",
+    "title": "气象数据服务快报-20191018",
+    "type": "数据服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/气象数据服务快报-20191018.docx"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "山西省气象局",
+    "cdate": "2019-10-18 08:50:00",
+    "serverurl": "",
+    "title": "天气快报2019第223期（20191018）",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/天气快报2019第223期（20191018）.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 09:10:00",
+    "serverurl": "",
+    "title": "今年第20号台风“浣熊”生成未来五天逐渐向巴士海峡靠近 并将于22日减弱消散",
+    "type": "两办刊物信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_SDMS_SFER_EME_ACHN_LNO_P9_20191018090100000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "海南省气象局",
+    "cdate": "2019-10-18 09:10:00",
+    "serverurl": "",
+    "title": "海南省农业气象服务专报-秋收秋种2019年第12期",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/农业气象服务专报-秋收秋种2019-12.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "卫星中心",
+    "cdate": "2019-10-18 09:20:00",
+    "serverurl": "",
+    "title": "18日09时雾监测-华北西北西南",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EFG_ACHN_LNO_P9_20191018090000000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-18 09:25:00",
+    "serverurl": "",
+    "title": "18日09时天气快报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_HUBMA_GMRB_SJCF_EME_AHB_L88_P9_20191018090000000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "探测中心",
+    "cdate": "2019-10-18 09:45:00",
+    "serverurl": "",
+    "title": "综合气象观测日报20191018",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/综合气象观测日报20191018.docx"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "卫星中心",
+    "cdate": "2019-10-18 09:50:00",
+    "serverurl": "",
+    "title": "18日09时台风监测-浣熊",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EWO_ACHN_LNO_P9_20191018093000000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-18 09:55:00",
+    "serverurl": "",
+    "title": "湖南省秋收秋种气象服务专报2019年第14期",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_HNMA_SJCF_CAGMSS_EME_AHN_LNO_PA_20191018102800000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "安徽省气象局",
+    "cdate": "2019-10-18 10:05:00",
+    "serverurl": "",
+    "title": "安徽省2019年汛期气象服务工作总结",
+    "type": "专项（春运、高考、两会等）",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da91c3184aeee51e6c40a1d"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-18 10:20:00",
+    "serverurl": "",
+    "title": "气象信息快报2019年第164期-伊犁州塔城地区阿勒泰地区等地出现降水 北疆风口大风",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报2019年第164期-伊犁州塔城地区阿勒泰地区等地出现降水 北疆风口大风.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "云南省气象局",
+    "cdate": "2019-10-18 10:25:00",
+    "serverurl": "",
+    "title": "天气实况信息2019年第17期",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/天气实况信息2019年第17期.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-18 10:30:00",
+    "serverurl": "",
+    "title": "2019-江苏省秋收秋种气象服务专报三",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019-江苏省秋收秋种气象服务专报三.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "内蒙古气象局",
+    "cdate": "2019-10-18 10:35:00",
+    "serverurl": "",
+    "title": "气象预报信息",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象预报信息191018.docx"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 10:45:00",
+    "serverurl": "",
+    "title": "18日02时中期天气预报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_MTFC_SFER_EME_ACHN_L88_P9_20191018020000000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-18 10:45:00",
+    "serverurl": "",
+    "title": "18～20日我省中部、北部有中度霾 局部重度霾",
+    "type": "重大气象信息专报",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/18～20日我省中部、北部有中度霾 局部重度霾(2019[76]) .doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-18 10:50:00",
+    "serverurl": "",
+    "title": "18日10时天气急件",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GDMA_SJCF_SFER_EME_AGD_LNO_P9_20191018103900000.DOC"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "安徽省气象局",
+    "cdate": "2019-10-18 11:05:00",
+    "serverurl": "",
+    "title": "安徽省2019年10月18日重要农业气象专报-未来全省旱情持续 不利于秋种工作开展",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/安徽省2019年10月18日重要农业气象专报-未来全省旱情持续 不利于秋种工作开展.docx"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "福建省气象局",
+    "cdate": "2019-10-18 11:05:00",
+    "serverurl": "",
+    "title": "未来十天我省以多云天气为主",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/一周气象19042 .doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-18 11:10:00",
+    "serverurl": "",
+    "title": "长三角区域环境空气质量预报2019年第291期",
+    "type": "环境气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长三角区域环境空气质量预报2019年第291期.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气候中心",
+    "cdate": "2019-10-18 11:15:00",
+    "serverurl": "",
+    "title": "18日00时气候干旱监测图",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NCC_ZKI_SHLSK_ECI_ACHN_L88_PB_20191018000000000.png"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "中国气象局",
+    "cdate": "2019-10-18 11:20:00",
+    "serverurl": "",
+    "title": "今明两天华北黄淮等地将有大雾或霾天气未来三天北方地区将有大风降温天气",
+    "type": "气象灾害预警服务快报",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_CMA_SJCF_SFER_EME_ACHN_LNO_P9_20191018000000000.DOC"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "北京气象局",
+    "cdate": "2019-10-18 11:25:00",
+    "serverurl": "",
+    "title": "2019年10月18日北京地区秋收秋种气象服务专报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019年10月18日北京地区秋收秋种气象服务专报.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "四川省气象局",
+    "cdate": "2019-10-18 11:30:01",
+    "serverurl": "",
+    "title": "四川省秋收秋种服务专报2019年第14期 \t",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/四川省秋收秋种服务专报2019年第14期.docx"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-18 11:45:00",
+    "serverurl": "",
+    "title": "广东省农用天气预报(2019年第42期)",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/广东省农用天气预报(2019年第42期).doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "卫星中心",
+    "cdate": "2019-10-18 15:00:00",
+    "serverurl": "",
+    "title": "18日15时蓝藻监测-巢湖蓝藻",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EBA_ACHN_LNO_P9_20191018150000000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-18 15:05:00",
+    "serverurl": "",
+    "title": "辽宁省气象局7月29～30日暴雨过程气象服务总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da962f484aeee51e6c40a8b"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-18 15:10:00",
+    "serverurl": "",
+    "title": "辽宁省气象局8月2～3日暴雨过程气象服务总结",
+    "type": "暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da9632e84aeee51e6c40a90"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-18 15:10:00",
+    "serverurl": "",
+    "title": "辽宁省气象局9月6～8日台风（暴雨）过程气象服务总结",
+    "type": "台风, 暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da9635e84aeee51e6c40a96"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-18 15:10:00",
+    "serverurl": "",
+    "title": "辽宁省气象局关于铁岭开原“7•3”强对流天气和龙卷风监测预报预警及应对情况的报告",
+    "type": "雷雨大风强对流, 其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da963c184aeee51e6c40aa1"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-18 15:10:00",
+    "serverurl": "",
+    "title": "辽宁省气象局关于应对台风“利奇马”气象保障工作情况的报告",
+    "type": "台风, 暴雨洪涝",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da963f984aeee51e6c40aa6"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-18 15:10:00",
+    "serverurl": "",
+    "title": "辽宁省气象局2019年汛期气象服务工作总结",
+    "type": "其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da9642d84aeee51e6c40aab"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "内蒙古气象局",
+    "cdate": "2019-10-18 15:50:00",
+    "serverurl": "",
+    "title": "气象信息专报2019年第40期-今年我区气候特点、灾害情况及今冬明春气候趋势预测",
+    "type": "重大气象信息专报",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息专报（第40期）-今年我区气候特点、灾害情况及今冬明春气候趋势预测doc.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-18 16:00:00",
+    "serverurl": "",
+    "title": "延伸期预测（2019年11月1日-20日新疆强降温天气过程预测）",
+    "type": "气候服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/延伸期预测（2019年11月1日-20日新疆强降温天气过程预测）.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-18 16:05:00",
+    "serverurl": "",
+    "title": "辽宁省气象局国庆气象保障服务工作特别状态工作总结",
+    "type": "其它, 专项（春运、高考、两会等）",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da9701f84aeee51e6c40acb"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "浙江省气象局",
+    "cdate": "2019-10-18 16:30:00",
+    "serverurl": "",
+    "title": "九月以来气温偏高降水偏少 浙西气象干旱严重",
+    "type": "重大气象信息专报",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报1993.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "甘肃省气象局",
+    "cdate": "2019-10-18 16:50:00",
+    "serverurl": "",
+    "title": "18日16时气象专题服务",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GSMA_MSS_SFER_EME_AGS_LNO_P9_20191018163800000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 16:55:00",
+    "serverurl": "",
+    "title": "18日10时大雾警报-中央气象台10月18日18时继续发布大雾黄色预警",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_IMAT_SFER_EFGA_ACHN_L88_P9_20191018100002400.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-18 17:00:00",
+    "serverurl": "",
+    "title": "18日20时全国森林火险气象预报（警报）",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_FHLF_SFER_EME_ACHN_L88_P9_20191018200002400.DOC"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-18 17:05:00",
+    "serverurl": "",
+    "title": "20191018太湖地区气象卫星监测预警日报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191018太湖地区气象卫星监测预警日报--第201期.docx"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-18 17:10:00",
+    "serverurl": "",
+    "title": "湖北省2019年10月18日农用天气预报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/湖北省2019年10月18日农用天气预报.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-18 17:10:00",
+    "serverurl": "",
+    "title": "2019年10月18日湖北省农业气象专题服务",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019年10月18日湖北省农业气象专题服务.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-18 17:25:00",
+    "serverurl": "",
+    "title": "2019年10月18日太湖地区气象卫星监测预警日报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191018太湖地区气象卫星监测预警日报--第201期.docx"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-18 17:25:00",
+    "serverurl": "",
+    "title": "2019年10月18日秸秆焚烧气象卫星监测报告",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191018秸秆焚烧气象卫星监测报告1930.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 17:50:00",
+    "serverurl": "",
+    "title": "18日18时天气公报-华北中南部大气扩散条件较差冷空气将影响北方地区",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191018180000000.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-18 17:50:00",
+    "serverurl": "",
+    "title": "18日18时全国主要公路气象预报",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_TRFC_SFER_EME_ACHN_L88_P9_20191018180002400.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 18:00:00",
+    "serverurl": "",
+    "title": "19日00时早间会商提示",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_CONFER_SFER_E99_ACHN_LNO_P9_20191019000000000.PPT"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-18 18:35:00",
+    "serverurl": "",
+    "title": "灾害性天气过程评估（总第50期)-10月17日午后至18日白天北疆雨雪降温大风天气过程评估",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/灾害性天气过程评估（总第50期)-10月17日午后至18日白天北疆雨雪降温大风天气过程评估.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-18 22:05:00",
+    "serverurl": "",
+    "title": "2019年10月16日全国农业气象周报",
+    "type": "农业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/2019年10月16日全国农业气象周报.doc"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-18 22:15:00",
+    "serverurl": "",
+    "title": "江苏省3.21响水化工厂爆炸事故处置气象服务总结",
+    "type": "其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5da9c72984aeee51e6c40bd7"
+  },
+  {
+    "date": "2019-10-18",
+    "unit": "气象中心",
+    "cdate": "2019-10-19 05:55:00",
+    "serverurl": "",
+    "title": "18日22时大雾警报-中央气象台10月19日06时继续发布大雾黄色预警",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_IMAT_SFER_EFGA_ACHN_L88_P9_20191018220002400.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-19 07:35:00",
+    "serverurl": "",
+    "title": "重大气象信息专报（2019年第173期）",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重大气象信息专报（2019年第173期）.docx"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-19 07:40:00",
+    "serverurl": "",
+    "title": "每日气象专报-292",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/每日气象专报第292期.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "气象中心",
+    "cdate": "2019-10-19 07:45:00",
+    "serverurl": "",
+    "title": "19日08时天气公报-华北黄淮等地有雾霾天气冷空气将影响北方地区",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191019080000000.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "气象中心",
+    "cdate": "2019-10-19 08:10:00",
+    "serverurl": "",
+    "title": "19日08时每日天气摘报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_IMCL_SFER_EME_ACHN_LNO_P9_20191019080000000.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-19 08:50:00",
+    "serverurl": "",
+    "title": "长江流域天气公报",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长江流域天气公报2019年10月19日.pdf"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "卫星中心",
+    "cdate": "2019-10-19 09:45:00",
+    "serverurl": "",
+    "title": "19日09时雾监测-华北西北西南等",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EFG_ACHN_LNO_P9_20191019090000000.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-19 10:25:00",
+    "serverurl": "",
+    "title": "19日10时天气急件",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GDMA_SJCF_SFER_EME_AGD_LNO_P9_20191019101500000.DOC"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "气象中心",
+    "cdate": "2019-10-19 10:40:00",
+    "serverurl": "",
+    "title": "19日北京南部河北中部有中至重度霾 20日开始减弱消散",
+    "type": "两办刊物信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_SDMS_SFER_EME_ACHN_LNO_P9_20191019102900000.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "气象中心",
+    "cdate": "2019-10-19 10:45:00",
+    "serverurl": "",
+    "title": "19日02时中期天气预报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_MTFC_SFER_EME_ACHN_L88_P9_20191019020000000.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-19 11:00:00",
+    "serverurl": "",
+    "title": "气象信息快报2019年第165期-北疆东疆出现明显雨雪降温大风天气  乌鲁木齐市城区初雪",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报2019年第165期-北疆东疆出现明显雨雪降温大风天气  乌鲁木齐市城区初雪.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "气候中心",
+    "cdate": "2019-10-19 11:15:00",
+    "serverurl": "",
+    "title": "19日00时气候干旱监测图",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NCC_ZKI_SHLSK_ECI_ACHN_L88_PB_20191019000000000.png"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "探测中心",
+    "cdate": "2019-10-19 11:25:00",
+    "serverurl": "",
+    "title": "综合气象观测日报20191019",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/综合气象观测日报20191019.docx"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-19 11:45:00",
+    "serverurl": "",
+    "title": "长三角区域环境空气质量预报2019年第292期",
+    "type": "环境气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长三角区域环境空气质量预报2019年第292期.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "卫星中心",
+    "cdate": "2019-10-19 15:30:00",
+    "serverurl": "",
+    "title": "19日15时蓝藻监测-太湖、巢湖蓝藻",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EBA_ACHN_LNO_P9_20191019153000000.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "卫星中心",
+    "cdate": "2019-10-19 16:00:01",
+    "serverurl": "",
+    "title": "霾监测-20191019",
+    "type": "环境气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EHZ_ACHN_LNO_P9_20191019154000000.pdf"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "卫星中心",
+    "cdate": "2019-10-19 16:05:00",
+    "serverurl": "",
+    "title": "19日15时霾监测",
+    "type": "环境气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EHZ_ACHN_LNO_P9_20191019154000000.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-19 16:50:00",
+    "serverurl": "",
+    "title": "2019年10月19日秸秆焚烧气象卫星监测报告",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191019秸秆焚烧气象卫星监测报告1931.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-19 16:50:00",
+    "serverurl": "",
+    "title": "2019年10月19日太湖地区气象卫星监测预警日报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191019太湖地区气象卫星监测预警日报--第202期.docx"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-19 17:00:00",
+    "serverurl": "",
+    "title": "19日20时全国森林火险气象预报（警报）",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_FHLF_SFER_EME_ACHN_L88_P9_20191019200002400.DOC"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "天津气象局",
+    "cdate": "2019-10-19 17:40:00",
+    "serverurl": "",
+    "title": "气候服务第20期-气候趋势预测",
+    "type": "气候服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气候服务第20期-气候趋势预测.doc"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-19 18:00:00",
+    "serverurl": "",
+    "title": "19日18时全国主要公路气象预报",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_TRFC_SFER_EME_ACHN_L88_P9_20191019180002400.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "气象中心",
+    "cdate": "2019-10-19 18:00:00",
+    "serverurl": "",
+    "title": "20日00时早间会商提示",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_CONFER_SFER_E99_ACHN_LNO_P9_20191020000000000.PPT"
+  },
+  {
+    "date": "2019-10-19",
+    "unit": "气象中心",
+    "cdate": "2019-10-19 18:10:00",
+    "serverurl": "",
+    "title": "19日18时天气公报-华北黄淮等地有雾霾天气冷空气影响北方地区",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191019180000000.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-20 07:30:00",
+    "serverurl": "",
+    "title": "气象信息快报（2019年第286期）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报（2019年第286期）.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-20 07:50:00",
+    "serverurl": "",
+    "title": "每日气象专报-293",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/每日气象专报第293期.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "气象中心",
+    "cdate": "2019-10-20 08:00:00",
+    "serverurl": "",
+    "title": "20日08时天气公报-北方地区多冷空气活动华北黄淮等雾霾减弱或消散",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191020080000000.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "气象中心",
+    "cdate": "2019-10-20 08:15:00",
+    "serverurl": "",
+    "title": "20日08时每日天气摘报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_IMCL_SFER_EME_ACHN_LNO_P9_20191020080000000.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-20 08:35:00",
+    "serverurl": "",
+    "title": "长江流域天气公报",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长江流域天气公报2019年10月20日.pdf"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "探测中心",
+    "cdate": "2019-10-20 10:15:00",
+    "serverurl": "",
+    "title": "综合气象观测日报20191020",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/综合气象观测日报20191020.docx"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "气象中心",
+    "cdate": "2019-10-20 10:25:00",
+    "serverurl": "",
+    "title": "20日02时中期天气预报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_MTFC_SFER_EME_ACHN_L88_P9_20191020020000000.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "北京气象局",
+    "cdate": "2019-10-20 10:25:00",
+    "serverurl": "",
+    "title": "20日10时null",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_BJMA_MTFC_SFER_EME_ABJ_LNO_P9_20191020101510D00.DOC"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-20 10:30:00",
+    "serverurl": "",
+    "title": "长三角区域环境空气质量预报2019年第293期",
+    "type": "环境气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长三角区域环境空气质量预报2019年第293期.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "中国气象局",
+    "cdate": "2019-10-20 10:45:00",
+    "serverurl": "",
+    "title": "10月21日起新一股冷空气将自新疆开始影响我国",
+    "type": "气象灾害预警服务快报",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_CMA_SJCF_SFER_EME_ACHN_LNO_P9_20191020000000000.DOC"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "内蒙古气象局",
+    "cdate": "2019-10-20 10:45:00",
+    "serverurl": "",
+    "title": "气象预报信息",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象预报信息191020 .docx"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "北京气象局",
+    "cdate": "2019-10-20 10:45:00",
+    "serverurl": "",
+    "title": "环境气象快报-2019年第45期（旬报）",
+    "type": "环境气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/环境气象快报-2019年第45期（旬报）.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-20 10:55:00",
+    "serverurl": "",
+    "title": "20日10时天气急件",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GDMA_SJCF_SFER_EME_AGD_LNO_P9_20191020104200000.DOC"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "气候中心",
+    "cdate": "2019-10-20 11:15:00",
+    "serverurl": "",
+    "title": "20日00时气候干旱监测图",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NCC_ZKI_SHLSK_ECI_ACHN_L88_PB_20191020000000000.png"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "山西省气象局",
+    "cdate": "2019-10-20 11:55:00",
+    "serverurl": "",
+    "title": "天气快报2019第224期（20191020（周报）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/天气快报2019第224期（20191020（周报）.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-20 12:20:00",
+    "serverurl": "",
+    "title": "重大气象信息专报（2019年第174期）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重大气象信息专报（2019年第174期）.docx"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "西藏气象局",
+    "cdate": "2019-10-20 12:30:00",
+    "serverurl": "",
+    "title": "2019年10月下旬中期预报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019年10月下旬中期预报（红头）.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "西藏气象局",
+    "cdate": "2019-10-20 12:45:00",
+    "serverurl": "",
+    "title": "一周回顾与未来天气展望",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/MSP2_XZ-MO_WF_ME_L88_XZ_201910201100_W0000-W0001.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "卫星中心",
+    "cdate": "2019-10-20 14:05:00",
+    "serverurl": "",
+    "title": "20日14时水情监测周报-10月14日至10月20日",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EWATERW_ACHN_LNO_P9_20191020140000000.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "卫星中心",
+    "cdate": "2019-10-20 14:05:00",
+    "serverurl": "",
+    "title": "20日14时蓝藻监测-太湖、巢湖蓝藻",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EBA_ACHN_LNO_P9_20191020140000000.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "江西省气象局",
+    "cdate": "2019-10-20 14:25:00",
+    "serverurl": "",
+    "title": "10月下旬天气预报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_JXMA_SJCF_SFER_EME_AJX_LNO_P9_20191020140024024.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "气象中心",
+    "cdate": "2019-10-20 14:55:00",
+    "serverurl": "",
+    "title": "20日06时大雾警报-中央气象台10月20日14时解除大雾黄色预警",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_IMAT_SFER_EFGA_ACHN_L88_P9_20191020060002400.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-20 14:55:00",
+    "serverurl": "",
+    "title": "2019年10月20日秸秆焚烧气象卫星监测报告",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191020秸秆焚烧气象卫星监测报告1932.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-20 16:45:00",
+    "serverurl": "",
+    "title": "20日20时全国森林火险气象预报（警报）",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_FHLF_SFER_EME_ACHN_L88_P9_20191020200002400.DOC"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-20 16:50:00",
+    "serverurl": "",
+    "title": "201910月20日太湖地区气象卫星监测预警日报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191020太湖地区气象卫星监测预警日报--第203期.docx"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-20 17:40:00",
+    "serverurl": "",
+    "title": "2019年第42期一周天气",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019年一周天气42.doc"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-20 18:00:00",
+    "serverurl": "",
+    "title": "20日18时全国主要公路气象预报",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_TRFC_SFER_EME_ACHN_L88_P9_20191020180002400.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "气象中心",
+    "cdate": "2019-10-20 18:00:00",
+    "serverurl": "",
+    "title": "21日00时早间会商提示",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_CONFER_SFER_E99_ACHN_LNO_P9_20191021000000000.PPT"
+  },
+  {
+    "date": "2019-10-20",
+    "unit": "气象中心",
+    "cdate": "2019-10-20 18:15:00",
+    "serverurl": "",
+    "title": "20日18时天气公报-较强冷空气将影响我国西南地区多阴雨天气",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191020180000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-21 06:50:00",
+    "serverurl": "",
+    "title": "重大气象信息专报（2019年第175期）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重大气象信息专报（2019年第175期）.docx"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "气象中心",
+    "cdate": "2019-10-21 07:45:00",
+    "serverurl": "",
+    "title": "21日08时天气公报-较强冷空气将影响我国西南地区多阴雨天气",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191021080000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-21 07:50:00",
+    "serverurl": "",
+    "title": "每日气象专报-294",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/每日气象专报第294期.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-21 08:00:00",
+    "serverurl": "",
+    "title": "气象信息快报（2019年第287期）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报（2019年第287期）.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "气象中心",
+    "cdate": "2019-10-21 08:10:00",
+    "serverurl": "",
+    "title": "21日08时每日天气摘报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_IMCL_SFER_EME_ACHN_LNO_P9_20191021080000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "安徽省气象局",
+    "cdate": "2019-10-21 08:10:00",
+    "serverurl": "",
+    "title": "《气象信息专报》第111期：未来一周全省仍以多云天气为主，沿淮淮河以南旱情将持续发展",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息专报1021.111.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "吉林省气象局",
+    "cdate": "2019-10-21 08:45:00",
+    "serverurl": "",
+    "title": "上周天气概况和本周天气预报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息（红）2019223.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-21 08:50:00",
+    "serverurl": "",
+    "title": "长江流域天气公报",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长江流域天气公报2019年10月21日.pdf"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "云南省气象局",
+    "cdate": "2019-10-21 08:55:00",
+    "serverurl": "",
+    "title": "天气周报2019年第42期",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/天气周报2019年第42期.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "河南省气象局",
+    "cdate": "2019-10-21 09:15:00",
+    "serverurl": "",
+    "title": "河南省农业气象周报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019年农业气象周报（19年10月13日～19年10月19日）.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "探测中心",
+    "cdate": "2019-10-21 09:25:00",
+    "serverurl": "",
+    "title": "综合气象观测日报20191021",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/综合气象观测日报20191021.docx"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "海南省气象局",
+    "cdate": "2019-10-21 09:25:00",
+    "serverurl": "",
+    "title": "一周天气报告1942期",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/一周天气报告1942期.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "气象中心",
+    "cdate": "2019-10-21 10:05:00",
+    "serverurl": "",
+    "title": "21日02时中期天气预报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_MTFC_SFER_EME_ACHN_L88_P9_20191021020000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "北京气象局",
+    "cdate": "2019-10-21 10:05:00",
+    "serverurl": "",
+    "title": "北京市2019年10月中旬土壤墒情报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/北京市2019年10月中旬土壤墒情报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "浙江省气象局",
+    "cdate": "2019-10-21 10:10:00",
+    "serverurl": "",
+    "title": "本周我省以多云为主 森林火险气象等级较高",
+    "type": "重大气象信息专报",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报1994.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-21 10:20:00",
+    "serverurl": "",
+    "title": "长三角区域环境空气质量预报2019年第294期",
+    "type": "环境气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长三角区域环境空气质量预报2019年第294期.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "卫星中心",
+    "cdate": "2019-10-21 10:25:00",
+    "serverurl": "",
+    "title": "21日10时季风监测",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EMS_ACHN_LNO_P9_20191021103000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "信息中心",
+    "cdate": "2019-10-21 10:35:00",
+    "serverurl": "",
+    "title": "气象数据服务快报-20191021",
+    "type": "数据服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/气象数据服务快报-20191021.docx"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-21 10:45:00",
+    "serverurl": "",
+    "title": "21日10时天气急件",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GDMA_SJCF_SFER_EME_AGD_LNO_P9_20191021103700000.DOC"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "气候中心",
+    "cdate": "2019-10-21 11:15:01",
+    "serverurl": "",
+    "title": "21日00时气候干旱监测图",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NCC_ZKI_SHLSK_ECI_ACHN_L88_PB_20191021000000000.png"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-21 11:15:01",
+    "serverurl": "",
+    "title": "预警信号2019138（大风蓝色预警)",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/预警信号2019138（大风蓝色预警).docx"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "中国气象局",
+    "cdate": "2019-10-21 11:25:00",
+    "serverurl": "",
+    "title": "未来十天西南地区东部等地多阴雨 贵州广西局地有暴雨江淮和江南中东部降水仍偏少",
+    "type": "气象灾害预警服务快报",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_CMA_SJCF_SFER_EME_ACHN_LNO_P9_20191021000000000.DOC"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "四川省气象局",
+    "cdate": "2019-10-21 11:30:00",
+    "serverurl": "",
+    "title": "2019年10月中旬天气概况",
+    "type": "气候服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019年10月中旬天气概况.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-21 11:30:00",
+    "serverurl": "",
+    "title": "未来一周省内降雨日数较多 气温前高后低（201963）",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/未来一周省内降雨日数较多 气温前高后低（201963）.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "甘肃省气象局",
+    "cdate": "2019-10-21 11:35:00",
+    "serverurl": "",
+    "title": "21日11时专题天气预报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GSMA_RSAP_ASC_ESPWS_AGS_LNO_P9_20191021112700000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "安徽省气象局",
+    "cdate": "2019-10-21 11:45:00",
+    "serverurl": "",
+    "title": "安徽省2019年第42周农业气象周报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/安徽省2019年第42周农业气象周报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "河南省气象局",
+    "cdate": "2019-10-21 11:45:00",
+    "serverurl": "",
+    "title": "河南秋收秋种气象服务专报20191021-6",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/河南省秋收秋种气象服务专报20191021-6.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-21 12:45:00",
+    "serverurl": "",
+    "title": "江苏省2019年10月中旬农业气象旬报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/江苏省2019年10月中旬农业气象旬报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "卫星中心",
+    "cdate": "2019-10-21 13:50:00",
+    "serverurl": "",
+    "title": "21日01时空间碎片与辐射环境专报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_DRWR_NCSW_ESWE_AGLB_LNO_P9_20191021010016800.DOC"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-21 14:15:00",
+    "serverurl": "",
+    "title": "气象服务快报第219期-山东省2019年10月中旬农业气象旬报",
+    "type": "气候服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_SDMA_SJCF_SFER_EME_ASD_LNO_P9_201910210800000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "北京气象局",
+    "cdate": "2019-10-21 14:20:00",
+    "serverurl": "",
+    "title": "北京市2019年10月中旬农业气象旬报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/北京市2019年10月中旬农业气象旬报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-21 14:30:00",
+    "serverurl": "",
+    "title": "湖北省气象局2019年汛期气象服务工作总结",
+    "type": "其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5dad4ee484aeee51e6c4100e"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-21 15:10:00",
+    "serverurl": "",
+    "title": "湖南省2019年农业气象周报第38期",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_HNMA_SJCF_CAGMSS_EME_AHN_LNO_PA_20191021151000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "卫星中心",
+    "cdate": "2019-10-21 15:15:00",
+    "serverurl": "",
+    "title": "21日15时蓝藻监测-太湖蓝藻",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EBA_ACHN_LNO_P9_20191021150000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-21 15:45:00",
+    "serverurl": "",
+    "title": "湖北省2019年10月21日农用天气预报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/湖北省2019年10月21日农用天气预报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "宁夏气象局",
+    "cdate": "2019-10-21 15:50:00",
+    "serverurl": "",
+    "title": "预计23-24日我区有一次大风强降温及雨雪天气过程 对设施农业 道路交通及人体健康影响较大 需加强防范",
+    "type": "重大气象信息专报",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/宁夏气象信息专报2019年第59期.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-21 16:20:00",
+    "serverurl": "",
+    "title": "长三角地区一周污染天气展望2019年第42期",
+    "type": "环境气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长三角地区一周污染天气展望2019年第42期.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-21 16:20:00",
+    "serverurl": "",
+    "title": "农业气象灾害监测与预警1930-江苏省农田土壤水分监测报告",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/农业气象灾害监测与预警1930-江苏省农田土壤水分监测报告.docx"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-21 16:25:01",
+    "serverurl": "",
+    "title": "新疆气象局决策气象服务一周重点关注201941-1021",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/新疆气象局决策气象服务一周重点关注201941-1021.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "卫星中心",
+    "cdate": "2019-10-21 16:35:00",
+    "serverurl": "",
+    "title": "21日01时空间天气周报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_SWWR_NCSW_ESWE_AGLB_LNO_P9_20191021010016800.DOC"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "天津气象局",
+    "cdate": "2019-10-21 16:35:00",
+    "serverurl": "",
+    "title": "第101届全国糖酒商品交易会气象报告第1期",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/第101届全国糖酒商品交易会气象报告第1期.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "天津气象局",
+    "cdate": "2019-10-21 16:35:00",
+    "serverurl": "",
+    "title": "农业气象第29期-农气旬报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/农业气象第29期-农气旬报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "西藏气象局",
+    "cdate": "2019-10-21 16:40:00",
+    "serverurl": "",
+    "title": "西藏2019年10月中旬农业气象情报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/西藏2019年10月中旬农业气象情报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "西藏气象局",
+    "cdate": "2019-10-21 16:40:00",
+    "serverurl": "",
+    "title": "西藏2019年10月中旬土壤水分监测公报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/西藏2019年10月中旬土壤水分监测公报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-21 16:45:00",
+    "serverurl": "",
+    "title": "21日20时全国森林火险气象预报（警报）",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_FHLF_SFER_EME_ACHN_L88_P9_20191021200002400.DOC"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-21 17:05:00",
+    "serverurl": "",
+    "title": "2019年10月21日秸秆焚烧气象卫星监测报告",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191021秸秆焚烧气象卫星监测报告1933.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-21 17:10:00",
+    "serverurl": "",
+    "title": "2019年10月21日太湖地区气象卫星监测预警日报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191021太湖地区气象卫星监测预警日报--第204期.docx"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-21 17:30:00",
+    "serverurl": "",
+    "title": "湖北省2019年第42周农业气象周报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/湖北省2019年第42周农业气象周报.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-21 17:40:00",
+    "serverurl": "",
+    "title": "湖南省气象卫星遥感监测公报2019年第34期(高温点)",
+    "type": "专业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象卫星遥感监测公报2019年第34期(高温点).docx"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-21 17:50:00",
+    "serverurl": "",
+    "title": "21日18时全国主要公路气象预报",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_TRFC_SFER_EME_ACHN_L88_P9_20191021180002400.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "气象中心",
+    "cdate": "2019-10-21 18:00:00",
+    "serverurl": "",
+    "title": "22日00时早间会商提示",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_CONFER_SFER_E99_ACHN_LNO_P9_20191022000000000.PPT"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "气象中心",
+    "cdate": "2019-10-21 18:15:00",
+    "serverurl": "",
+    "title": "21日18时天气公报-较强冷空气将影响我国 华西地区多阴雨天气",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191021180000000.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-21 18:30:00",
+    "serverurl": "",
+    "title": "新疆2019年小麦农业气象条件评价",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/新疆2019年小麦农业气象条件评价.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-21 19:20:00",
+    "serverurl": "",
+    "title": "新疆2019年10月中旬农牧业气象信息",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/新疆2019年10月中旬农牧业气象信息.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "宁夏气象局",
+    "cdate": "2019-10-21 21:35:00",
+    "serverurl": "",
+    "title": "宁夏气象局9月5-8日中阿博览会气象保障服务总结",
+    "type": "重大活动",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5dadb26784aeee51e6c411b4"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-21 22:40:00",
+    "serverurl": "",
+    "title": "重要天气预报-114",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191021-114-发布大雾黄色预警信号.doc"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-21 23:10:00",
+    "serverurl": "",
+    "title": "上海市2019年10月21日土壤水分监测公报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/上海市2019年10月21日土壤水分监测公报.docx"
+  },
+  {
+    "date": "2019-10-21",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-21 23:10:00",
+    "serverurl": "",
+    "title": "上海市2019年10月21日农业干旱监测预报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/上海市2019年10月21日农业干旱监测预报.docx"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "气象中心",
+    "cdate": "2019-10-22 07:40:00",
+    "serverurl": "",
+    "title": "22日08时天气公报-较强冷空气将影响我国 华西地区多阴雨天气",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191022080000000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-22 07:55:00",
+    "serverurl": "",
+    "title": "每日气象专报-295",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/每日气象专报第295期.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "气象中心",
+    "cdate": "2019-10-22 08:10:00",
+    "serverurl": "",
+    "title": "22日08时每日天气摘报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_IMCL_SFER_EME_ACHN_LNO_P9_20191022080000000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "信息中心",
+    "cdate": "2019-10-22 08:15:00",
+    "serverurl": "",
+    "title": "气象数据服务快报-20191022",
+    "type": "数据服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/气象数据服务快报-20191022.docx"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-22 08:25:00",
+    "serverurl": "",
+    "title": "气象信息快报（2019年第288期）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报（2019年第288期）.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-22 08:55:00",
+    "serverurl": "",
+    "title": "长江流域天气公报",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长江流域天气公报2019年10月22日.pdf"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-22 09:00:00",
+    "serverurl": "",
+    "title": "22日08时天气快报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_HUBMA_GMRB_SJCF_EME_AHB_L88_P9_20191022080000000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "贵州省气象局",
+    "cdate": "2019-10-22 09:15:00",
+    "serverurl": "",
+    "title": "《象信息快报》第140期-10月22日08时天气实况",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报第140期-10月22日08时天气实况.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "卫星中心",
+    "cdate": "2019-10-22 09:20:00",
+    "serverurl": "",
+    "title": "22日09时雾监测-山东半岛黄海等",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EFG_ACHN_LNO_P9_20191022090000000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "探测中心",
+    "cdate": "2019-10-22 09:40:00",
+    "serverurl": "",
+    "title": "综合气象观测日报20191022",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/综合气象观测日报20191022.docx"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-22 10:15:00",
+    "serverurl": "",
+    "title": "长三角区域环境空气质量预报2019年第295期",
+    "type": "环境气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长三角区域环境空气质量预报2019年第295期.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "气象中心",
+    "cdate": "2019-10-22 10:20:00",
+    "serverurl": "",
+    "title": "22日10时每日天气摘报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_IMCL_SFER_EME_ACHN_LNO_P9_20191022100000000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "气象中心",
+    "cdate": "2019-10-22 10:45:00",
+    "serverurl": "",
+    "title": "22日02时中期天气预报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_MTFC_SFER_EME_ACHN_L88_P9_20191022020000000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-22 10:45:00",
+    "serverurl": "",
+    "title": "22日10时天气急件",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GDMA_SJCF_SFER_EME_AGD_LNO_P9_20191022103600000.DOC"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "安徽省气象局",
+    "cdate": "2019-10-22 11:05:00",
+    "serverurl": "",
+    "title": "安徽省2019年10月22日重要农业气象专报-未来全省仍无有效降水 未播田块应积极造墒播栽.",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/安徽省2019年10月22日重要农业气象专报-未来全省仍无有效降水 未播田块应积极造墒播栽..docx"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "天津气象局",
+    "cdate": "2019-10-22 11:05:00",
+    "serverurl": "",
+    "title": "农气服务第30期-秋收秋种7",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/农气服务第30期-秋收秋种7.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "气候中心",
+    "cdate": "2019-10-22 11:15:00",
+    "serverurl": "",
+    "title": "22日00时气候干旱监测图",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NCC_ZKI_SHLSK_ECI_ACHN_L88_PB_20191022000000000.png"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "中国气象局",
+    "cdate": "2019-10-22 11:15:00",
+    "serverurl": "",
+    "title": "22日至25日较强冷空气将自西向东影响北方地区华北黄淮将有轻至中度霾 24日下午起逐渐减弱消散",
+    "type": "气象灾害预警服务快报",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_CMA_SJCF_SFER_EME_ACHN_LNO_P9_20191022000000000.DOC"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-22 11:20:00",
+    "serverurl": "",
+    "title": "气象信息快报2019年第166期-伊犁州塔城地区阿勒泰地区等地出现雨雪大风天气",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报2019年第166期-伊犁州塔城地区阿勒泰地区等地出现雨雪大风天气.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "广西气象局",
+    "cdate": "2019-10-22 11:25:01",
+    "serverurl": "",
+    "title": "未来两天我区大部有中到大雨局部暴雨",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/19102260.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-22 11:35:00",
+    "serverurl": "",
+    "title": "2019-江苏省秋收秋种气象服务专报四",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/2019-江苏省秋收秋种气象服务专报四.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-22 11:40:00",
+    "serverurl": "",
+    "title": "10月下旬天气预报及秋收秋种建议",
+    "type": "重大气象信息专报",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/决策气象服务专报1913--10月下旬天气预报及秋收秋种建议.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "黑龙江省气象局",
+    "cdate": "2019-10-22 11:50:00",
+    "serverurl": "",
+    "title": "23-25日我省大部有较大雨雪、大风、降温天气",
+    "type": "重大气象信息专报",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重大气象信息专报2019第060期.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-22 12:30:00",
+    "serverurl": "",
+    "title": "2019年10月13日太湖地区气象卫星监测预警周报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191022太湖地区气象卫星监测预警周报--第28期.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "北京气象局",
+    "cdate": "2019-10-22 14:30:00",
+    "serverurl": "",
+    "title": "10月中旬农业干旱监测及下一旬预报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/MSP3_BJ-CC_MDDRGMF_AD_LNO_BJ_201910221400_T0000-T0001.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "青海省气象局",
+    "cdate": "2019-10-22 14:35:00",
+    "serverurl": "",
+    "title": "重要天气报告2019年第29期",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重要天气报告2019年第29期.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-22 15:25:00",
+    "serverurl": "",
+    "title": "湖北省2019年第31期农用天气预报",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/湖北省2019年10月22日农用天气预报.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "甘肃省气象局",
+    "cdate": "2019-10-22 15:40:00",
+    "serverurl": "",
+    "title": "22日15时农气服务专题",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GSMA_AMSS_SFER_EME_AGS_LNO_P9_20191022153200000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "天津气象局",
+    "cdate": "2019-10-22 15:55:00",
+    "serverurl": "",
+    "title": "第101届全国糖酒商品交易会气象报告第2期",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/第101届全国糖酒商品交易会气象报告第2期.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "卫星中心",
+    "cdate": "2019-10-22 16:00:00",
+    "serverurl": "",
+    "title": "22日15时专题气象服务-湖北军运会",
+    "type": "专项服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_ESPWS_ACHN_LNO_P9_20191022153000000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-22 16:00:00",
+    "serverurl": "",
+    "title": "气象卫星遥感监测公报2019年第35期(高温点)",
+    "type": "专业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象卫星遥感监测公报2019年第35期(高温点).docx"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "卫星中心",
+    "cdate": "2019-10-22 16:05:00",
+    "serverurl": "",
+    "title": "综合监测-20191022",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EMIX_ACHN_LNO_P9_20191022154500000.pdf"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "上海市气象局",
+    "cdate": "2019-10-22 16:35:00",
+    "serverurl": "",
+    "title": "上海市2019年第43周农业气象周报",
+    "type": "未知",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/上海市2019年第43周农业气象周报.docx"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-22 16:40:00",
+    "serverurl": "",
+    "title": "22日20时全国森林火险气象预报（警报）",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_FHLF_SFER_EME_ACHN_L88_P9_20191022200002400.DOC"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "北京气象局",
+    "cdate": "2019-10-22 16:50:00",
+    "serverurl": "",
+    "title": "22日16时天气情况",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_BJMA_SJCF_SFER_EME_ANCN_LNO_P9_20191022164000000.DOC"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-22 17:10:01",
+    "serverurl": "",
+    "title": "2019年10月22日秸秆焚烧气象卫星监测报告",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191022秸秆焚烧气象卫星监测报告1934.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-22 17:10:01",
+    "serverurl": "",
+    "title": "2019年10月22日太湖地区气象卫星监测预警日报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191022太湖地区气象卫星监测预警日报--第205期.docx"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-22 17:30:00",
+    "serverurl": "",
+    "title": "新疆极端天气气候事件监测报告201910（2019年10月13日阿克苏地区极端降水事件分析）",
+    "type": "气候服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/新疆极端天气气候事件监测报告201910（2019年10月13日阿克苏地区极端降水事件分析）.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "气象中心",
+    "cdate": "2019-10-22 17:35:00",
+    "serverurl": "",
+    "title": "北京地区22日夜间至23日将有霾和雾 24日将出现降水和大风降温天气",
+    "type": "两办刊物信息",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_SDMS_SFER_EME_ACHN_LNO_P9_20191022172400000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "湖南省气象局",
+    "cdate": "2019-10-22 17:45:00",
+    "serverurl": "",
+    "title": "气象卫星遥感监测公报2019年第36期(水体)",
+    "type": "气候服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象卫星遥感监测公报2019年第36期(水体).doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-22 17:50:00",
+    "serverurl": "",
+    "title": "遥感监测旬报第29期 20191022",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/遥感监测旬报第29期20191022.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "气象中心",
+    "cdate": "2019-10-22 17:55:01",
+    "serverurl": "",
+    "title": "22日18时天气公报-较强冷空气东移南下影响长江中下游以北地区华北黄淮有雾霾天气",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191022180000000.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-22 17:55:01",
+    "serverurl": "",
+    "title": "2019年10月17-19日北疆区域性冷空气过程监测分析",
+    "type": "气候服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/新疆冷空气过程监测报告201906期（2019年10月17-19日北疆区域性冷空气过程监测分析）.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气象中心",
+    "cdate": "2019-10-22 18:00:00",
+    "serverurl": "",
+    "title": "23日00时早间会商提示",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_CONFER_SFER_E99_ACHN_LNO_P9_20191023000000000.PPT"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "山西省气象局",
+    "cdate": "2019-10-22 18:00:00",
+    "serverurl": "",
+    "title": "气象信息专报2019第23期（10月23-25日我省将出现一次降水大风降温天气过程）",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息专报2019年第23期（2019年10月22日 10月23-25日我省将出现一次降水大风降温天气过程）.doc"
+  },
+  {
+    "date": "2019-10-22",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-22 18:10:00",
+    "serverurl": "",
+    "title": "22日18时全国主要公路气象预报",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_TRFC_SFER_EME_ACHN_L88_P9_20191022180002400.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-23 06:50:00",
+    "serverurl": "",
+    "title": "重大气象信息专报（2019年第176期）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重大气象信息专报（2019年第176期）.docx"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "山东省气象局",
+    "cdate": "2019-10-23 07:35:00",
+    "serverurl": "",
+    "title": "每日气象专报-296",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/每日气象专报第296期.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气象中心",
+    "cdate": "2019-10-23 07:40:00",
+    "serverurl": "",
+    "title": "23日08时天气公报-较强冷空气东移南下影响长江中下游以北地区华北黄淮有雾霾天气",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191023080000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气象中心",
+    "cdate": "2019-10-23 08:05:00",
+    "serverurl": "",
+    "title": "23日07时每日天气摘报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/BSEP_NMC_IMCL_SFER_EME_ACHN_LNO_P9_20191023070000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "陕西省气象局",
+    "cdate": "2019-10-23 08:30:00",
+    "serverurl": "",
+    "title": "气象信息快报（2019年第289期）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报（2019年第289期）.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "山西省气象局",
+    "cdate": "2019-10-23 08:45:00",
+    "serverurl": "",
+    "title": "天气快报2019第225期（20191023）",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/天气快报2019第225期（20191023）.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "信息中心",
+    "cdate": "2019-10-23 08:50:00",
+    "serverurl": "",
+    "title": "气象数据服务快报-20191023",
+    "type": "数据服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/气象数据服务快报-20191023.docx"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 08:55:00",
+    "serverurl": "",
+    "title": "23日08时雾监测-辽宁",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EFG_ACHN_LNO_P9_20191023083000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-23 09:00:00",
+    "serverurl": "",
+    "title": "长江流域天气公报",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/长江流域天气公报2019年10月23日.pdf"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "湖北省气象局",
+    "cdate": "2019-10-23 09:35:00",
+    "serverurl": "",
+    "title": "23日09时天气快报",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_HUBMA_GMRB_SJCF_EME_AHB_L88_P9_20191023090000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "探测中心",
+    "cdate": "2019-10-23 09:40:00",
+    "serverurl": "",
+    "title": "综合气象观测日报20191023",
+    "type": "其他类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/综合气象观测日报20191023.docx"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气象中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日02时中期天气预报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_MTFC_SFER_EME_ACHN_L88_P9_20191023020000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气象中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日02时中期天气预报",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_MTFC_SFER_EME_ACHN_L88_P9_20191023020000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气候中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日00时气候干旱监测图",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NCC_ZKI_SHLSK_ECI_ACHN_L88_PB_20191023000000000.png"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气候中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日00时气候干旱监测图",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NCC_ZKI_SHLSK_ECI_ACHN_L88_PB_20191023000000000.png"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日12时地表温度监测旬报-10月中旬",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_ETSKT_ACHN_LNO_P9_20191023120000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日12时地表温度监测旬报-10月中旬",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_ETSKT_ACHN_LNO_P9_20191023120000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日12时干旱监测旬报-10月中旬",
+    "type": "环境气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EADT_ACHN_LNO_P9_20191023120000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日12时干旱监测旬报-10月中旬",
+    "type": "环境气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EADT_ACHN_LNO_P9_20191023120000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日12时植被监测旬报-10月中旬",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_ECCGT_ACHN_LNO_P9_20191023120000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日12时植被监测旬报-10月中旬",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_ECCGT_ACHN_LNO_P9_20191023120000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日12时相对蒸散监测旬报-10月中旬",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_ERAT_ACHN_LNO_P9_20191023120000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日12时相对蒸散监测旬报-10月中旬",
+    "type": "气候服务类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_ERAT_ACHN_LNO_P9_20191023120000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日14时蓝藻监测-巢湖蓝藻",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EBA_ACHN_LNO_P9_20191023140000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 14:58:46",
+    "serverurl": "",
+    "title": "23日14时蓝藻监测-巢湖蓝藻",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EBA_ACHN_LNO_P9_20191023140000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "内蒙古气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "重要气象报告",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重要气象报告（20191023）.pdf"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "内蒙古气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "重要气象报告",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/重要气象报告（20191023）.pdf"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "气象信息快报2019年第167期-伊犁州至昌吉州一线哈密市出现降雪 哈密市局地暴雪",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报2019年第167期-伊犁州至昌吉州一线哈密市出现降雪 哈密市局地暴雪.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "新疆气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "气象信息快报2019年第167期-伊犁州至昌吉州一线哈密市出现降雪 哈密市局地暴雪",
+    "type": "其他类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报2019年第167期-伊犁州至昌吉州一线哈密市出现降雪 哈密市局地暴雪.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "广东省气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "23日10时天气急件",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/SEVP_GDMA_SJCF_SFER_EME_AGD_LNO_P9_20191023104900000.DOC"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "吉林省气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "雨雪、明显降温天气来临 注意加强防御",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息（红）2019224.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "天津气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "气象信息快报第112期-降水大风降温",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息快报第112期-降水大风降温.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "江苏省气象局关于2019年汛期气象服务的工作总结",
+    "type": "其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5dafc9f584aeee51e6c4167e"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "辽宁省气象局",
+    "cdate": "2019-10-23 15:20:00",
+    "serverurl": "",
+    "title": "24～25日我省将出现雨雪降温天气  26日将进入冬季 ",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/24～25日我省将出现雨雪降温天气 26日将进入冬季(2019[77]) .doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "卫星中心",
+    "cdate": "2019-10-23 15:35:00",
+    "serverurl": "",
+    "title": "23日14时台风监测-博罗依",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NSMC_RSAP_ASC_EWO_ACHN_LNO_P9_20191023143000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "天津气象局",
+    "cdate": "2019-10-23 16:40:00",
+    "serverurl": "",
+    "title": "第101届全国糖酒商品交易会气象报告第3期",
+    "type": "专项服务类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/第101届全国糖酒商品交易会气象报告第3期.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-23 17:00:00",
+    "serverurl": "",
+    "title": "2019年10月23日秸秆焚烧气象卫星监测报告",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191023秸秆焚烧气象卫星监测报告1935.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-23 17:00:00",
+    "serverurl": "",
+    "title": "2019年10月23日太湖地区气象卫星监测预警日报",
+    "type": "生态气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/20191023太湖地区气象卫星监测预警日报--第206期.docx"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-23 17:05:00",
+    "serverurl": "",
+    "title": "23日20时全国森林火险气象预报（警报）",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_FHLF_SFER_EME_ACHN_L88_P9_20191023200002400.DOC"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气象中心",
+    "cdate": "2019-10-23 17:55:00",
+    "serverurl": "",
+    "title": "23日10时暴雪预警-中央气象台10月23日18时发布暴雪蓝色预警",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_IMAT_SFER_ESWA_ACHN_L88_P9_20191023100002400.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "公共服务中心",
+    "cdate": "2019-10-23 18:05:00",
+    "serverurl": "",
+    "title": "23日18时全国主要公路气象预报",
+    "type": "专业气象类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_PMSC_TRFC_SFER_EME_ACHN_L88_P9_20191023180002400.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气象中心",
+    "cdate": "2019-10-23 18:05:00",
+    "serverurl": "",
+    "title": "23日18时天气公报-较强冷空气影响中东部地区华北黄淮有雾霾天气",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_WEBU_SFER_EME_AGLB_LNO_P9_20191023180000000.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "气象中心",
+    "cdate": "2019-10-24 06:00:00",
+    "serverurl": "",
+    "title": "23日22时暴雪预警-中央气象台10月24日06时继续发布暴雪蓝色预警",
+    "type": "预报预警类",
+    "category": "nation",
+    "url": "http://10.1.64.187/gridfs/SEVP_NMC_IMAT_SFER_ESWA_ACHN_L88_P9_20191023220002400.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "天津气象局",
+    "cdate": "2019-10-23 16:15:00",
+    "serverurl": "",
+    "title": "生态专题报告第1期-水稻监测评估",
+    "type": "农业气象类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/生态专题报告第1期-水稻监测评估.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "吉林省气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "雨雪、明显降温天气来临 注意加强防御",
+    "type": "预报预警类",
+    "category": "region",
+    "url": "http://10.1.64.187/gridfs/气象信息（红）2019224.doc"
+  },
+  {
+    "date": "2019-10-23",
+    "unit": "江苏省气象局",
+    "cdate": "2019-10-23 14:58:47",
+    "serverurl": "",
+    "title": "江苏省气象局关于2019年汛期气象服务的工作总结",
+    "type": "其它",
+    "category": "summary",
+    "url": "http://10.1.64.187/jcxt/summary/download?id=5dafc9f584aeee51e6c4167e"
+  }
+]

@@ -1,0 +1,264 @@
+﻿<UserControl x:Class="CMAPlatform.TestWindow.Controls.RealtimeRain"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <Style x:Key="BarStyle"
+               TargetType="Border">
+            <Setter Property="Background"
+                    Value="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=telerik:BarSeries},Path=Background}" />
+            <EventSetter Event="PreviewMouseLeftButtonDown"
+                         Handler="EventSetter_OnHandler" />
+            <Setter Property="HorizontalAlignment"
+                    Value="Center" />
+        </Style>
+
+        <Style x:Key="MaxBarStyle"
+               TargetType="Border">
+            <Setter Property="Background"
+                    Value="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=telerik:BarSeries},Path=Background}" />
+            <Setter Property="HorizontalAlignment"
+                    Value="Stretch" />
+            <Setter Property="VerticalAlignment"
+                    Value="Stretch" />
+            <EventSetter Event="PreviewMouseLeftButtonDown"
+                         Handler="EventSetter_OnHandler" />
+            <Setter Property="Margin"
+                    Value="0" />
+        </Style>
+
+        <Style TargetType="telerik:ChartSeries">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="telerik:ChartSeries">
+                        <Canvas x:Name="renderSurface"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Stretch" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="BarSeriesStyle"
+               TargetType="telerik:BarSeries">
+            <Setter Property="TrackBallTemplate"
+                    Value="{StaticResource TrackBallDataTemplate}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="telerik:BarSeries">
+                        <Canvas x:Name="renderSurface"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Stretch"
+                                MaxWidth="50" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="CombineMode"
+                    Value="Cluster" />
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <telerik:RadCartesianChart x:Name="stackBarChart"
+                                   Grid.Row="0"
+                                   VerticalAlignment="Stretch"
+                                   Background="Transparent">
+
+            <telerik:RadCartesianChart.Grid>
+                <telerik:CartesianChartGrid MajorLinesVisibility="X"
+                                            MajorXLineDashArray="2,1"
+                                            MajorXLinesRenderMode="All"
+                                            StripLinesVisibility="Y"
+                                            ClipToBounds="False">
+                    <telerik:CartesianChartGrid.YStripeBrushes>
+                        <SolidColorBrush Color="#ffffff"
+                                         Opacity="0.05" />
+                        <SolidColorBrush Color="Transparent" />
+                    </telerik:CartesianChartGrid.YStripeBrushes>
+                    <telerik:CartesianChartGrid.MajorXLineStyle>
+                        <Style TargetType="Line">
+                            <Setter Property="Stroke"
+                                    Value="Gray" />
+                            <Setter Property="Margin"
+                                    Value="0,0,0,-50" />
+                            <Setter Property="ClipToBounds"
+                                    Value="False" />
+                        </Style>
+                    </telerik:CartesianChartGrid.MajorXLineStyle>
+                </telerik:CartesianChartGrid>
+            </telerik:RadCartesianChart.Grid>
+            <telerik:RadCartesianChart.HorizontalAxis>
+                <telerik:DateTimeCategoricalAxis DateTimeComponent="Hour"
+                                                 GapLength="0.4"
+                                                 MajorTickLength="0"
+                                                 LineThickness="0"
+                                                 LabelTemplate="{StaticResource TimeBarHorizontalAxisLabelDataTemplate}" />
+            </telerik:RadCartesianChart.HorizontalAxis>
+            <telerik:RadCartesianChart.VerticalAxis>
+                <telerik:LinearAxis Visibility="Collapsed"
+                                    MajorTickLength="0"
+                                    LineThickness="0"
+                                    VerticalLocation="Top"
+                                    LastLabelVisibility="Hidden"
+                                    MajorStep="10"
+                                    LabelFormat="0站"
+                                    ElementBrush="#ffffff"
+                                    LabelTemplate="{StaticResource TimeBarAxisLabelDataTemplate}" />
+            </telerik:RadCartesianChart.VerticalAxis>
+            <telerik:RadCartesianChart.Series>
+                <telerik:BarSeries CombineMode="Stack"
+                                   ShowLabels="True"
+                                   ItemsSource="{Binding OnViewCountInfos[0].CountInfos}"
+                                   ValueBinding="CountValue"
+                                   CategoryBinding="CountDateTime">
+                    <telerik:BarSeries.PointTemplate>
+                        <DataTemplate>
+                            <Border MaxWidth="100"
+                                    VerticalAlignment="Stretch">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="../Resource/Images/back1.png" />
+                                </Border.Background>
+                            </Border>
+                        </DataTemplate>
+                    </telerik:BarSeries.PointTemplate>
+                    <telerik:BarSeries.LabelDefinitions>
+                        <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Template="{StaticResource BarLabelDateTemplate}" />
+                    </telerik:BarSeries.LabelDefinitions>
+                </telerik:BarSeries>
+                <telerik:BarSeries CombineMode="Stack"
+                                   ShowLabels="True"
+                                   ItemsSource="{Binding OnViewCountInfos[1].CountInfos}"
+                                   ValueBinding="CountValue"
+                                   CategoryBinding="CountDateTime">
+                    <telerik:BarSeries.PointTemplate>
+                        <DataTemplate>
+                            <Border MaxWidth="100"
+                                    VerticalAlignment="Stretch">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="../Resource/Images/back2.png" />
+                                </Border.Background>
+                            </Border>
+                        </DataTemplate>
+                    </telerik:BarSeries.PointTemplate>
+                    <telerik:BarSeries.LabelDefinitions>
+                        <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Template="{StaticResource BarLabelDateTemplate}" />
+                    </telerik:BarSeries.LabelDefinitions>
+                </telerik:BarSeries>
+                <telerik:BarSeries CombineMode="Stack"
+                                   ShowLabels="True"
+                                   ItemsSource="{Binding OnViewCountInfos[2].CountInfos}"
+                                   ValueBinding="CountValue"
+                                   CategoryBinding="CountDateTime">
+                    <telerik:BarSeries.PointTemplate>
+                        <DataTemplate>
+                            <Border MaxWidth="100"
+                                    VerticalAlignment="Stretch">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="../Resource/Images/back3.png" />
+                                </Border.Background>
+                            </Border>
+                        </DataTemplate>
+                    </telerik:BarSeries.PointTemplate>
+                    <telerik:BarSeries.LabelDefinitions>
+                        <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Template="{StaticResource BarLabelDateTemplate}" />
+                    </telerik:BarSeries.LabelDefinitions>
+
+                </telerik:BarSeries>
+                <telerik:BarSeries CombineMode="Stack"
+                                   ShowLabels="True"
+                                   ItemsSource="{Binding OnViewCountInfos[3].CountInfos}"
+                                   ValueBinding="CountValue"
+                                   CategoryBinding="CountDateTime">
+                    <telerik:BarSeries.PointTemplate>
+                        <DataTemplate>
+                            <Border MaxWidth="100"
+                                    VerticalAlignment="Stretch">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="../Resource/Images/back4.png" />
+                                </Border.Background>
+                            </Border>
+                        </DataTemplate>
+                    </telerik:BarSeries.PointTemplate>
+                    <telerik:BarSeries.LabelDefinitions>
+                        <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Template="{StaticResource BarLabelDateTemplate}" />
+                    </telerik:BarSeries.LabelDefinitions>
+                </telerik:BarSeries>
+            </telerik:RadCartesianChart.Series>
+        </telerik:RadCartesianChart>
+
+        <telerik:RadCartesianChart x:Name="maximumChart"
+                                   Grid.Row="2"
+                                   VerticalAlignment="Center"
+                                   Background="Black">
+            <telerik:RadCartesianChart.Grid>
+                <telerik:CartesianChartGrid MajorLinesVisibility="X"
+                                            MajorXLineDashArray="2,1"
+                                            MajorXLinesRenderMode="All">
+                    <telerik:CartesianChartGrid.MajorXLineStyle>
+                        <Style TargetType="Line">
+                            <Setter Property="Stroke"
+                                    Value="Gray" />
+                        </Style>
+                    </telerik:CartesianChartGrid.MajorXLineStyle>
+                </telerik:CartesianChartGrid>
+            </telerik:RadCartesianChart.Grid>
+            <telerik:RadCartesianChart.HorizontalAxis>
+                <telerik:DateTimeCategoricalAxis DateTimeComponent="Hour"
+                                                 GapLength="0"
+                                                 MajorTickLength="0"
+                                                 LineThickness="0"
+                                                 LabelTemplate="{StaticResource TimeBarHorizontalAxisLabelDataTemplate}" />
+            </telerik:RadCartesianChart.HorizontalAxis>
+            <telerik:RadCartesianChart.VerticalAxis>
+                <telerik:LinearAxis Visibility="Collapsed"
+                                    MajorTickLength="0"
+                                    MajorStep="0.5"
+                                    LineThickness="0"
+                                    ShowLabels="True"
+                                    LastLabelVisibility="Hidden"
+                                    Maximum="1"
+                                    Minimum="0"
+                                    ElementBrush="#ffffff"
+                                    LabelTemplate="{StaticResource MaxTimeBarAxisLabelDataTemplate}" />
+            </telerik:RadCartesianChart.VerticalAxis>
+            <telerik:RadCartesianChart.Series>
+                <telerik:BarSeries ItemsSource="{Binding MaxCountInfos}"
+                                   ShowLabels="True"
+                                   CombineMode="Stack"
+                                   DefaultVisualStyle="{StaticResource MaxBarStyle}"
+                                   ValueBinding="Value"
+                                   CategoryBinding="CountDateTime">
+                    <telerik:BarSeries.Background>
+                        <SolidColorBrush Color="#0786c2"
+                                         Opacity="0.15" />
+                    </telerik:BarSeries.Background>
+                    <telerik:BarSeries.LabelDefinitions>
+                        <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Template="{StaticResource MaxLabelDateTemplate}" />
+                    </telerik:BarSeries.LabelDefinitions>
+                </telerik:BarSeries>
+            </telerik:RadCartesianChart.Series>
+        </telerik:RadCartesianChart>
+
+    </Grid>
+</UserControl>

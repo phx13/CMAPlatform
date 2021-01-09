@@ -1,0 +1,15 @@
+﻿<controls:PopWindow x:Class="CMAPlatform.TimeLine.DocumentsWindow"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:Digihail.AVE.Launcher.Controls;assembly=AVE.Launcher.Controls"
+                    Title=" "
+                    Height="600"
+                    Width="800"
+                    Name="DocumentsWindows"
+                    Style="{StaticResource CMAWindowBaseStyle}">
+    <Grid>
+        <DocumentViewer x:Name="docViewer" />
+
+        <Image x:Name="image" />
+    </Grid>
+</controls:PopWindow>

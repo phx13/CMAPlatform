@@ -1,0 +1,300 @@
+﻿<UserControl x:Class="CMAPlatform.TimeLine.Controls.SingleRealtimeRainControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:converter="clr-namespace:CMAPlatform.TimeLine.Converter"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style x:Key="SingleBarStyle"
+               TargetType="Border">
+            <Setter Property="Background"
+                    Value="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=telerik:BarSeries},Path=Background}" />
+            <Setter Property="HorizontalAlignment"
+                    Value="Stretch" />
+            <Setter Property="VerticalAlignment"
+                    Value="Stretch" />
+            <Setter Property="Margin"
+                    Value="0" />
+            <Style.Triggers>
+                <DataTrigger Value="2"
+                             Binding="{Binding DataItem.AlarmLevel}">
+                    <Setter Property="Background"
+                            Value="#FF4000" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <converter:DayFormat x:Key="DayFormat" />
+        <converter:HourFormat x:Key="HourFormat" />
+        <converter:MinuteFormat x:Key="MinuteFormat" />
+        <converter:TimeBarLabelConverter x:Key="BarLabelConverter" />
+
+        <!-- 不显示横坐标轴Label -->
+        <DataTemplate x:Key="TimeBarHorizontalAxisLabelDataTemplate">
+            <StackPanel Width="0"
+                        Height="0"
+                        Visibility="Collapsed" />
+        </DataTemplate>
+
+        <!-- 实况单站降水柱图纵坐标轴Label -->
+        <DataTemplate x:Key="SingleTimeBarAxisLabelDataTemplate"
+                      DataType="telerik:LineAxis">
+            <StackPanel Orientation="Vertical"
+                        x:Name="stackPanel"
+                        Width="130"
+                        Background="Transparent"
+                        HorizontalAlignment="Right">
+                <TextBlock x:Name="textBlock"
+                           Text="{Binding}"
+                           Block.TextAlignment="Right"
+                           HorizontalAlignment="Right" />
+            </StackPanel>
+            <DataTemplate.Triggers>
+                <DataTrigger Value="0mm"
+                             Binding="{Binding}">
+                    <Setter TargetName="stackPanel"
+                            Property="Visibility"
+                            Value="Collapsed" />
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+
+        <Style x:Key="SingleBarTimeButtonStyle"
+               TargetType="ToggleButton">
+            <Setter Property="Cursor"
+                    Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Border x:Name="border"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch">
+                            <Border.Background>
+                                <SolidColorBrush Color="#42BEAD"
+                                                 Opacity="0.3" />
+                            </Border.Background>
+                            <ContentPresenter IsHitTestVisible="False" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked"
+                                     Value="True">
+                                <Setter TargetName="border"
+                                        Property="Background">
+                                    <Setter.Value>
+                                        <SolidColorBrush Color="#FF4D4D"
+                                                         Opacity="0.3" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="TimeBar_Header_Background"
+                         Color="#4DFFC5"
+                         Opacity="0.1" />
+        <LinearGradientBrush x:Key="TimeBar_Header_BorderBrush"
+                             StartPoint="0.6968414306640625,0.10845708847045898"
+                             EndPoint="0.568829345703125,1.2255182266235352">
+            <LinearGradientBrush.GradientStops>
+                <GradientStopCollection>
+                    <GradientStop Color="#FF61e4d5"
+                                  Offset="0" />
+                    <GradientStop Color="#FF148571"
+                                  Offset="0.9277780055999756" />
+                    <GradientStop Color="#FF18A58C"
+                                  Offset="0.9777780175209045" />
+                    <GradientStop Color="#FF1bb499"
+                                  Offset="1" />
+                </GradientStopCollection>
+            </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+        <DataTemplate x:Key="PreLabelDateTemplate"
+                      DataType="telerik:Label">
+            <TextBlock Text="{Binding DataItem.RainNumber}"
+                       Background="Transparent"
+                       Foreground="#FFFFFF"
+                       Visibility="{Binding DataItem.RainNumber,Converter={StaticResource BarLabelConverter}}" />
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2" />
+                <ColumnDefinition Width="130" />
+                <ColumnDefinition Width="1" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="1" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="1" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="1" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="1" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Border Background="DarkGray" />
+
+            <Border Grid.Column="1"
+                    Background="{StaticResource TimeBar_Header_Background}"
+                    BorderBrush="{StaticResource TimeBar_Header_BorderBrush}"
+                    BorderThickness="5,0,0,0">
+                <TextBlock Text="降水"
+                           Foreground="#DDDDDD"
+                           FontSize="26"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center" />
+            </Border>
+
+            <RadioButton x:Name="button1"
+                         Grid.Column="3"
+                         Style="{StaticResource SingleBarTimeButtonStyle}"
+                         Checked="BarTimeSpanChanged"
+                         Tag="1">
+                <TextBlock Text="1小时"
+                           Foreground="White"
+                           FontSize="26"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Margin="40,15" />
+            </RadioButton>
+            <RadioButton x:Name="button3"
+                         Grid.Column="5"
+                         Style="{StaticResource SingleBarTimeButtonStyle}"
+                         Checked="BarTimeSpanChanged"
+                         Tag="3">
+                <TextBlock Text="3小时"
+                           Foreground="White"
+                           FontSize="26"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Margin="40,15" />
+            </RadioButton>
+            <RadioButton x:Name="button6"
+                         Grid.Column="7"
+                         Style="{StaticResource SingleBarTimeButtonStyle}"
+                         Checked="BarTimeSpanChanged"
+                         Tag="6">
+                <TextBlock Text="6小时"
+                           Foreground="White"
+                           FontSize="26"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Margin="40,15" />
+            </RadioButton>
+            <RadioButton x:Name="button12"
+                         Grid.Column="9"
+                         Style="{StaticResource SingleBarTimeButtonStyle}"
+                         Checked="BarTimeSpanChanged"
+                         Tag="12">
+                <TextBlock Text="12小时"
+                           Foreground="White"
+                           FontSize="26"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Margin="40,15" />
+            </RadioButton>
+            <RadioButton x:Name="button24"
+                         Grid.Column="11"
+                         Style="{StaticResource SingleBarTimeButtonStyle}"
+                         Checked="BarTimeSpanChanged"
+                         Tag="24">
+                <TextBlock Text="24小时"
+                           Foreground="White"
+                           FontSize="26"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Margin="40,15" />
+            </RadioButton>
+        </Grid>
+
+        <telerik:RadTimeBar Name="timeBar1"
+                            Grid.Row="2"
+                            VerticalAlignment="Stretch"
+                            MinZoomRange="00:01:00"
+                            PeriodStart="{Binding StartTime, Mode=TwoWay}"
+                            PeriodEnd="{Binding EndTime, Mode=TwoWay}"
+                            VisiblePeriodStart="{Binding VisibleStartTime, Mode=TwoWay}"
+                            VisiblePeriodEnd="{Binding VisibleEndTime, Mode=TwoWay}"
+                            IsSnapToIntervalEnabled="True"
+                            ScrollMode="ScrollAndZoom"
+                            Background="Transparent"
+                            Style="{StaticResource CustomSingleTimeBar}">
+            <telerik:RadTimeBar.Intervals>
+                <telerik:DayInterval FormatterProvider="{StaticResource DayFormat}" />
+                <telerik:HourInterval FormatterProvider="{StaticResource HourFormat}" />
+                <converter:DecadeMinuteInterval />
+                <!--<telerik:MinuteInterval FormatterProvider="{StaticResource MinuteFormat}" />-->
+            </telerik:RadTimeBar.Intervals>
+            <Grid>
+                <telerik:RadCartesianChart x:Name="maximumChart"
+                                           Background="Transparent">
+                    <telerik:RadCartesianChart.Grid>
+                        <telerik:CartesianChartGrid MajorLinesVisibility="X"
+                                                    MajorXLineDashArray="2,1"
+                                                    MajorXLinesRenderMode="All">
+                            <telerik:CartesianChartGrid.MajorXLineStyle>
+                                <Style TargetType="Line">
+                                    <Setter Property="Stroke"
+                                            Value="Gray" />
+                                </Style>
+                            </telerik:CartesianChartGrid.MajorXLineStyle>
+                        </telerik:CartesianChartGrid>
+                    </telerik:RadCartesianChart.Grid>
+                    <telerik:RadCartesianChart.HorizontalAxis>
+                        <telerik:DateTimeCategoricalAxis DateTimeComponent="Hour"
+                                                         GapLength="0.5"
+                                                         MajorTickLength="0"
+                                                         LineThickness="0"
+                                                         LabelTemplate="{StaticResource TimeBarHorizontalAxisLabelDataTemplate}" />
+                    </telerik:RadCartesianChart.HorizontalAxis>
+                    <telerik:RadCartesianChart.VerticalAxis>
+                        <telerik:LinearAxis x:Name="linearAxis"
+                                            Visibility="Collapsed"
+                                            MajorTickLength="0"
+                                            LineThickness="0"
+                                            ShowLabels="True"
+                                            LastLabelVisibility="Clip"
+                                            LabelInterval="3"
+                                            LabelFormat="0mm"
+                                            FontSize="18"
+                                            ElementBrush="#ffffff"
+                                            LabelTemplate="{StaticResource SingleTimeBarAxisLabelDataTemplate}" />
+                    </telerik:RadCartesianChart.VerticalAxis>
+                    <telerik:RadCartesianChart.Series>
+                        <telerik:BarSeries ItemsSource="{Binding Rains}"
+                                           ShowLabels="True"
+                                           CombineMode="Stack"
+                                           DefaultVisualStyle="{StaticResource SingleBarStyle}"
+                                           ValueBinding="RainNumber"
+                                           CategoryBinding="Time">
+                            <telerik:BarSeries.Background>
+                                <SolidColorBrush Color="#0EA0D1" />
+                            </telerik:BarSeries.Background>
+                            <telerik:BarSeries.LabelDefinitions>
+                                <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                                    VerticalAlignment="Top"
+                                                                    Template="{StaticResource PreLabelDateTemplate}" />
+                            </telerik:BarSeries.LabelDefinitions>
+                        </telerik:BarSeries>
+                    </telerik:RadCartesianChart.Series>
+                </telerik:RadCartesianChart>
+            </Grid>
+        </telerik:RadTimeBar>
+    </Grid>
+
+</UserControl>

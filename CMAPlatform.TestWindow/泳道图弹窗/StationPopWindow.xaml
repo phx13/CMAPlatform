@@ -1,0 +1,80 @@
+﻿<Window x:Class="CMAPlatform.TestWindow.泳道图弹窗.StationPopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CMAPlatform.TestWindow.泳道图弹窗"
+        mc:Ignorable="d"
+        Title="StationPopWindow"
+        Height="450"
+        Width="400">
+
+    <Window.Resources>
+        <Style x:Key="listBoxItemStyle"
+               TargetType="ListBoxItem">
+            <Setter Property="Cursor"
+                    Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="border" BorderThickness="1" BorderBrush="Transparent" Margin="0,4">
+                            <DockPanel Background="Transparent">
+                                <TextBlock Text="{Binding StationName}"
+                                           FontSize="{TemplateBinding FontSize}"
+                                           Foreground="{TemplateBinding Foreground}" />
+                                <TextBlock DockPanel.Dock="Right"
+                                           HorizontalAlignment="Right"
+                                           Text="{Binding RainNumber,StringFormat={}{0}mm}"
+                                           FontSize="{TemplateBinding FontSize}"
+                                           Foreground="{TemplateBinding Foreground}" />
+                            </DockPanel>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver"
+                                     Value="True">
+                                <Setter TargetName="border"
+                                        Property="Background">
+                                    <Setter.Value>
+                                        <SolidColorBrush Color="#FF7373"
+                                                         Opacity="0.24" />
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter TargetName="border"
+                                        Property="BorderBrush"
+                                        Value="#FF4D4D" />
+                            </Trigger>
+                            <Trigger Property="IsSelected"
+                                     Value="True">
+                                <Setter TargetName="border"
+                                        Property="Background">
+                                    <Setter.Value>
+                                        <SolidColorBrush Color="#FF7373"
+                                                         Opacity="0.24" />
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter TargetName="border"
+                                        Property="BorderBrush"
+                                        Value="#FF4D4D" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Width="160"
+          Height="234">
+        <Grid.Background>
+            <ImageBrush ImageSource="../Resource/Images/background.fw.png" />
+        </Grid.Background>
+        <ListBox Background="Transparent"
+                 Foreground="#FFFFFF"
+                 FontSize="18"
+                 Padding="15,10"
+                 SelectionMode="Single"
+                 ItemsSource="{Binding StationInfos}"
+                 ItemContainerStyle="{StaticResource listBoxItemStyle}"
+                 SelectionChanged="Selector_OnSelectionChanged" />
+    </Grid>
+</Window>

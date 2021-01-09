@@ -1,0 +1,12 @@
+C:\AVCFiles\Applications\20191128\CMAPlatform\CMAPlatform\output\CMAPlatform.Models.dll
+C:\AVCFiles\Applications\20191128\CMAPlatform\CMAPlatform\output\CMAPlatform.Models.pdb
+C:\AVCFiles\Applications\20191128\CMAPlatform\CMAPlatform\CMAPlatform.Models\obj\Debug\CMAPlatform.Models.dll
+C:\AVCFiles\Applications\20191128\CMAPlatform\CMAPlatform\CMAPlatform.Models\obj\Debug\CMAPlatform.Models.pdb
+C:\AVCFiles\Applications\20200110\CMAPlatform\output\CMAPlatform.Models.dll
+C:\AVCFiles\Applications\20200110\CMAPlatform\output\CMAPlatform.Models.pdb
+C:\AVCFiles\Applications\20200110\CMAPlatform\CMAPlatform.Models\obj\Debug\CMAPlatform.Models.dll
+C:\AVCFiles\Applications\20200110\CMAPlatform\CMAPlatform.Models\obj\Debug\CMAPlatform.Models.pdb
+D:\GC\Projects2019\中国气象局\CMAPlatform\output\CMAPlatform.Models.dll
+D:\GC\Projects2019\中国气象局\CMAPlatform\output\CMAPlatform.Models.pdb
+D:\GC\Projects2019\中国气象局\CMAPlatform\CMAPlatform.Models\obj\Debug\CMAPlatform.Models.dll
+D:\GC\Projects2019\中国气象局\CMAPlatform\CMAPlatform.Models\obj\Debug\CMAPlatform.Models.pdb

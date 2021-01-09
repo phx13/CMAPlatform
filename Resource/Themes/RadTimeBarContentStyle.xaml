@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+                    xmlns:converter="clr-namespace:Resource.Converter"
+                    xmlns:local="clr-namespace:Resource">
+
+
+    <converter:DoubleToVisibilityConverter x:Key="doubleToVisibilityConverter" />
+
+    <!--#region 暴雨降水柱图-->
+
+    <!--柱图Label样式-->
+    <DataTemplate x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type local:CMAResourceClass}, ResourceId=RainBarLabelDateTemplate}"
+                  DataType="telerik:Label">
+        <TextBlock Text="{Binding DataItem.CountValue}"
+                   Background="Transparent"
+                   Foreground="#FFFFFF"
+                   Visibility="{Binding DataItem.CountValue,Converter={StaticResource doubleToVisibilityConverter}}" />
+    </DataTemplate>
+
+    <!--柱图水平刻度样式-->
+    <DataTemplate x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type local:CMAResourceClass}, ResourceId=TimeBarHorizontalAxisLabelDataTemplate}">
+        <StackPanel Width="0"
+                    Height="0"
+                    Visibility="Collapsed" />
+    </DataTemplate>
+
+    <!--#endregion-->
+
+</ResourceDictionary>

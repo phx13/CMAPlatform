@@ -1,0 +1,57 @@
+﻿[
+	{
+		"ProvinceName" : "黑龙江",
+		"Percent" : 0.6,
+		"Indicators" : [
+			{
+				"Name" : "全国气象防灾减灾监控信息",
+				"HaveOrNot" : true,
+				"SubIndicators" : [
+					{
+						"Name" : "中小河流域",
+						"HaveOrNot" : false
+					},{
+						"Name" : "山洪沟",
+						"HaveOrNot" : true
+					},{
+						"Name" : "地灾隐患点",
+						"HaveOrNot" : true
+					},{
+						"Name" : "城镇易涝点",
+						"HaveOrNot" : false
+					}
+				]
+			},{
+				"Name" : "全国气象防灾减灾重点涉灾单位",
+				"HaveOrNot" : true,
+				"SubIndicators" : [
+					{
+						"Name" : "旅游景区",
+						"HaveOrNot" : false
+					},{
+						"Name" : "重点医院",
+						"HaveOrNot" : true
+					},{
+						"Name" : "中小学校",
+						"HaveOrNot" : true
+					}
+				]
+			},{
+				"Name" : "全国气象防灾减灾重点涉灾单位",
+				"HaveOrNot" : true,
+				"SubIndicators" : [
+					{
+						"Name" : "旅游景区",
+						"HaveOrNot" : false
+					},{
+						"Name" : "重点医院",
+						"HaveOrNot" : true
+					},{
+						"Name" : "中小学校",
+						"HaveOrNot" : true
+					}
+				]
+			}
+		]
+	}
+]

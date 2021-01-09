@@ -1,0 +1,40 @@
+﻿<base:ChartViewBase x:Class="CMAPlatform.Chart.View.BubbleChart"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:base="clr-namespace:Digihail.DAD3.Charts.Base;assembly=DAD3.Charts"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:view="clr-namespace:CMAPlatform.Chart.View"
+                    mc:Ignorable="d"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    Margin="10">
+    <base:ChartViewBase.Resources>
+
+    </base:ChartViewBase.Resources>
+    <Grid
+        Width="{Binding Path=DataContext.DVM.ChartWidth, RelativeSource={RelativeSource AncestorType=base:ChartViewBase}}"
+        Height="{Binding Path=DataContext.DVM.ChartHeight, RelativeSource={RelativeSource AncestorType=base:ChartViewBase}}"
+        Background="Transparent">
+        <view:DrawingBubbleCanvas Datas="{Binding BubbleInfos}"
+                                  Width="{Binding CanvasWidth}"
+                                  Height="{Binding CanvasHeight}"
+                                  Margin="{Binding CanvasMargin}"
+                                  TextScale="{Binding CanvasScale}"
+                                  TextColor="{Binding Path=DataContext.DVM.TextColor, RelativeSource={RelativeSource AncestorType=base:ChartViewBase}}"
+                                  RingWidth="{Binding Path=DataContext.DVM.RingWidth, RelativeSource={RelativeSource AncestorType=base:ChartViewBase}}"
+                                  TextSize="{Binding Path=DataContext.DVM.TextSize, RelativeSource={RelativeSource AncestorType=base:ChartViewBase}}"
+                                  Background="Transparent"
+                                  VerticalAlignment="Top"
+                                  HorizontalAlignment="Left">
+            <view:DrawingBubbleCanvas.RenderTransform>
+                <ScaleTransform CenterX="0.5"
+                                CenterY="0.5"
+                                ScaleX="{Binding CanvasScale}"
+                                ScaleY="{Binding CanvasScale}" />
+            </view:DrawingBubbleCanvas.RenderTransform>
+        </view:DrawingBubbleCanvas>
+    </Grid>
+</base:ChartViewBase>

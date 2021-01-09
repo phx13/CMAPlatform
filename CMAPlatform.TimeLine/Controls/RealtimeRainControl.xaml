@@ -1,0 +1,383 @@
+﻿<UserControl x:Class="CMAPlatform.TimeLine.Controls.RealtimeRainControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:converter="clr-namespace:CMAPlatform.TimeLine.Converter"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+
+    <UserControl.Resources>
+
+        <converter:TimeBarLabelConverter x:Key="BarLabelConverter" />
+        <converter:DayFormat x:Key="DayFormat" />
+        <converter:HourFormat x:Key="HourFormat" />
+        <converter:MinuteFormat x:Key="MinuteFormat" />
+
+        <!--柱图Label样式-->
+        <DataTemplate x:Key="BarLabelDateTemplate"
+                      DataType="telerik:Label">
+            <TextBlock Text="{Binding DataItem.CountValue}"
+                       Background="Transparent"
+                       Foreground="#FFFFFF"
+                       Visibility="{Binding DataItem.CountValue,Converter={StaticResource BarLabelConverter}}" />
+        </DataTemplate>
+        <!--柱图刻度样式-->
+        <DataTemplate x:Key="TimeBarAxisLabelDataTemplate"
+                      DataType="telerik:LineAxis">
+            <StackPanel x:Name="stackPanel"
+                        Orientation="Vertical"
+                        Width="130"
+                        HorizontalAlignment="Right">
+                <TextBlock Text="{Binding}"
+                           Block.TextAlignment="Right"
+                           HorizontalAlignment="Right" />
+            </StackPanel>
+            <DataTemplate.Triggers>
+                <DataTrigger Value="0站"
+                             Binding="{Binding}">
+                    <Setter TargetName="stackPanel"
+                            Property="Visibility"
+                            Value="Collapsed" />
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+        <!--柱图水平刻度样式-->
+        <DataTemplate x:Key="TimeBarHorizontalAxisLabelDataTemplate">
+            <StackPanel Width="0"
+                        Height="0"
+                        Visibility="Collapsed" />
+        </DataTemplate>
+
+        <!--最大降雨量柱图样式-->
+        <Style x:Key="MaxBarStyle"
+               TargetType="Border">
+            <Setter Property="Background"
+                    Value="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=telerik:BarSeries},Path=Background}" />
+        </Style>
+        <!--最大降雨量刻度样式-->
+        <DataTemplate x:Key="MaxTimeBarAxisLabelDataTemplate"
+                      DataType="telerik:LineAxis">
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Top"
+                        Width="130">
+                <TextBox x:Name="block"
+                         Text="{Binding Mode=OneWay}"
+                         Foreground="White"
+                         Background="Red"
+                         BorderThickness="0"
+                         Visibility="Collapsed"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Stretch"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center" />
+            </StackPanel>
+            <DataTemplate.Triggers>
+                <DataTrigger Value="0.5"
+                             Binding="{Binding}">
+                    <Setter TargetName="block"
+                            Property="Visibility"
+                            Value="Visible" />
+                    <Setter TargetName="block"
+                            Property="Height"
+                            Value="100" />
+                    <Setter TargetName="block"
+                            Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border>
+                                    <Border.Background>
+                                        <ImageBrush ImageSource="../Resources/Images/TimeBarHeaderBg.fw.png"
+                                                    Stretch="UniformToFill" />
+                                    </Border.Background>
+                                    <Border Height="38"
+                                            VerticalAlignment="Center"
+                                            HorizontalAlignment="Stretch"
+                                            Margin="15,0">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="1.5*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="1.5*" />
+                                                <RowDefinition Height="*" />
+                                            </Grid.RowDefinitions>
+                                            <Image Grid.Column="0"
+                                                   Grid.Row="0"
+                                                   Grid.RowSpan="2"
+                                                   Source="../Resources/Images/TimeBarMaxRain.fw.png"
+                                                   Stretch="UniformToFill" />
+                                            <TextBlock Grid.Column="1"
+                                                       Grid.Row="0"
+                                                       Text="最大值"
+                                                       Foreground="#ffffff"
+                                                       VerticalAlignment="Center"
+                                                       HorizontalAlignment="Center" />
+                                            <TextBlock Grid.Column="1"
+                                                       Grid.Row="1"
+                                                       Foreground="#ffffff"
+                                                       HorizontalAlignment="Center"
+                                                       Text="单位(mm)" />
+                                        </Grid>
+                                    </Border>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+        <!--最大降雨量Label样式-->
+        <DataTemplate x:Key="MaxLabelDateTemplate"
+                      DataType="telerik:Label">
+            <StackPanel>
+                <TextBlock Text="{Binding DataItem.Name}"
+                           HorizontalAlignment="Center"
+                           Foreground="#FFFFFF"
+                           FontSize="30" />
+                <TextBlock Text="{Binding DataItem.MaxValue}"
+                           HorizontalAlignment="Center"
+                           Foreground="#FFFFFF"
+                           FontSize="30" />
+            </StackPanel>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <telerik:RadTimeBar Name="timeBar1"
+                        Grid.Row="2"
+                        VerticalAlignment="Stretch"
+                        MinZoomRange="00:01:00"
+                        PeriodStart="{Binding StartTime, Mode=TwoWay}"
+                        PeriodEnd="{Binding EndTime, Mode=TwoWay}"
+                        VisiblePeriodStart="{Binding VisibleStartTime, Mode=TwoWay}"
+                        VisiblePeriodEnd="{Binding VisibleEndTime, Mode=TwoWay}"
+                        IsSnapToIntervalEnabled="True"
+                        ScrollMode="ScrollAndZoom"
+                        Background="Transparent"
+                        Style="{StaticResource CustomTimeBar}">
+        <telerik:RadTimeBar.Intervals>
+            <telerik:DayInterval FormatterProvider="{StaticResource DayFormat}" />
+            <telerik:HourInterval FormatterProvider="{StaticResource HourFormat}" />
+            <converter:DecadeMinuteInterval />
+            <!--<telerik:MinuteInterval FormatterProvider="{StaticResource MinuteFormat}" />-->
+        </telerik:RadTimeBar.Intervals>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="5" />
+                <RowDefinition Height="0" />
+            </Grid.RowDefinitions>
+            <telerik:RadCartesianChart x:Name="stackBarChart"
+                                       Grid.Row="0">
+
+                <telerik:RadCartesianChart.Grid>
+                    <telerik:CartesianChartGrid MajorLinesVisibility="X"
+                                                MajorXLineDashArray="2,1"
+                                                MajorXLinesRenderMode="All"
+                                                StripLinesVisibility="Y"
+                                                ClipToBounds="False">
+                        <telerik:CartesianChartGrid.YStripeBrushes>
+                            <SolidColorBrush Color="#ffffff"
+                                             Opacity="0.05" />
+                            <SolidColorBrush Color="Transparent" />
+                        </telerik:CartesianChartGrid.YStripeBrushes>
+                        <telerik:CartesianChartGrid.MajorXLineStyle>
+                            <Style TargetType="Line">
+                                <Setter Property="Stroke"
+                                        Value="Gray" />
+                            </Style>
+                        </telerik:CartesianChartGrid.MajorXLineStyle>
+                    </telerik:CartesianChartGrid>
+                </telerik:RadCartesianChart.Grid>
+                <telerik:RadCartesianChart.HorizontalAxis>
+                    <telerik:DateTimeCategoricalAxis DateTimeComponent="Hour"
+                                                     GapLength="0.4"
+                                                     MajorTickLength="0"
+                                                     LineThickness="0"
+                                                     LabelTemplate="{StaticResource TimeBarHorizontalAxisLabelDataTemplate}" />
+                </telerik:RadCartesianChart.HorizontalAxis>
+                <telerik:RadCartesianChart.VerticalAxis>
+                    <telerik:LinearAxis Visibility="Collapsed"
+                                        MajorTickLength="0"
+                                        LineThickness="0"
+                                        LastLabelVisibility="Hidden"
+                                        MajorStep="1"
+                                        LabelFormat="0站"
+                                        ElementBrush="#FFFFFF"
+                                        LabelTemplate="{StaticResource TimeBarAxisLabelDataTemplate}" />
+                </telerik:RadCartesianChart.VerticalAxis>
+                <telerik:RadCartesianChart.Series>
+                    <telerik:BarSeries CombineMode="Stack"
+                                       ShowLabels="True"
+                                       ItemsSource="{Binding OnViewCountInfos[0].CountInfos}"
+                                       ValueBinding="CountValue"
+                                       CategoryBinding="CountDateTime">
+                        <telerik:BarSeries.PointTemplate>
+                            <DataTemplate>
+                                <Border MaxWidth="100"
+                                        Cursor="Hand"
+                                        MouseLeftButtonUp="EventSetter_OnHandler"
+                                        VerticalAlignment="Stretch"
+                                        Background="#7F00BFFF"
+                                        BorderThickness="0,5,0,0">
+                                    <Border.BorderBrush>
+                                        <SolidColorBrush Color="#00BFFF"
+                                                         Opacity="0.75" />
+                                    </Border.BorderBrush>
+                                </Border>
+                            </DataTemplate>
+                        </telerik:BarSeries.PointTemplate>
+                        <telerik:BarSeries.LabelDefinitions>
+                            <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Template="{StaticResource BarLabelDateTemplate}" />
+                        </telerik:BarSeries.LabelDefinitions>
+                    </telerik:BarSeries>
+                    <telerik:BarSeries CombineMode="Stack"
+                                       ShowLabels="True"
+                                       ItemsSource="{Binding OnViewCountInfos[1].CountInfos}"
+                                       ValueBinding="CountValue"
+                                       CategoryBinding="CountDateTime">
+                        <telerik:BarSeries.PointTemplate>
+                            <DataTemplate>
+                                <Border MaxWidth="100"
+                                        Cursor="Hand"
+                                        MouseLeftButtonUp="EventSetter_OnHandler"
+                                        VerticalAlignment="Stretch"
+                                        Background="#7FFFFF00"
+                                        BorderThickness="0,5,0,0">
+                                    <Border.BorderBrush>
+                                        <SolidColorBrush Color="#FFFF00"
+                                                         Opacity="0.8" />
+                                    </Border.BorderBrush>
+                                </Border>
+                            </DataTemplate>
+                        </telerik:BarSeries.PointTemplate>
+                        <telerik:BarSeries.LabelDefinitions>
+                            <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Template="{StaticResource BarLabelDateTemplate}" />
+                        </telerik:BarSeries.LabelDefinitions>
+                    </telerik:BarSeries>
+                    <telerik:BarSeries CombineMode="Stack"
+                                       ShowLabels="True"
+                                       ItemsSource="{Binding OnViewCountInfos[2].CountInfos}"
+                                       ValueBinding="CountValue"
+                                       CategoryBinding="CountDateTime">
+                        <telerik:BarSeries.PointTemplate>
+                            <DataTemplate>
+                                <Border MaxWidth="100"
+                                        Cursor="Hand"
+                                        MouseLeftButtonUp="EventSetter_OnHandler"
+                                        VerticalAlignment="Stretch"
+                                        Background="#7FFFA64D"
+                                        BorderThickness="0,5,0,0">
+                                    <Border.BorderBrush>
+                                        <SolidColorBrush Color="#FFA64D"
+                                                         Opacity="0.8" />
+                                    </Border.BorderBrush>
+                                </Border>
+                            </DataTemplate>
+                        </telerik:BarSeries.PointTemplate>
+                        <telerik:BarSeries.LabelDefinitions>
+                            <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Template="{StaticResource BarLabelDateTemplate}" />
+                        </telerik:BarSeries.LabelDefinitions>
+
+                    </telerik:BarSeries>
+                    <telerik:BarSeries CombineMode="Stack"
+                                       ShowLabels="True"
+                                       ItemsSource="{Binding OnViewCountInfos[3].CountInfos}"
+                                       ValueBinding="CountValue"
+                                       CategoryBinding="CountDateTime">
+                        <telerik:BarSeries.PointTemplate>
+                            <DataTemplate>
+                                <Border MaxWidth="100"
+                                        Cursor="Hand"
+                                        MouseLeftButtonUp="EventSetter_OnHandler"
+                                        VerticalAlignment="Stretch"
+                                        Background="#7FFF4D4D"
+                                        BorderThickness="0,5,0,0">
+                                    <Border.BorderBrush>
+                                        <SolidColorBrush Color="#FF4D4D"
+                                                         Opacity="0.8" />
+                                    </Border.BorderBrush>
+                                </Border>
+                            </DataTemplate>
+                        </telerik:BarSeries.PointTemplate>
+                        <telerik:BarSeries.LabelDefinitions>
+                            <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Template="{StaticResource BarLabelDateTemplate}" />
+                        </telerik:BarSeries.LabelDefinitions>
+                    </telerik:BarSeries>
+                </telerik:RadCartesianChart.Series>
+            </telerik:RadCartesianChart>
+
+            <telerik:RadCartesianChart x:Name="maximumChart"
+                                       Grid.Row="2"
+                                       VerticalAlignment="Stretch">
+
+                <telerik:RadCartesianChart.Grid>
+                    <telerik:CartesianChartGrid MajorLinesVisibility="X"
+                                                MajorXLineDashArray="2,1"
+                                                MajorXLinesRenderMode="All">
+                        <telerik:CartesianChartGrid.MajorXLineStyle>
+                            <Style TargetType="Line">
+                                <Setter Property="Stroke"
+                                        Value="Gray" />
+                            </Style>
+                        </telerik:CartesianChartGrid.MajorXLineStyle>
+                    </telerik:CartesianChartGrid>
+                </telerik:RadCartesianChart.Grid>
+
+                <telerik:RadCartesianChart.HorizontalAxis>
+                    <telerik:DateTimeCategoricalAxis DateTimeComponent="Hour"
+                                                     GapLength="0"
+                                                     MajorTickLength="0"
+                                                     LineThickness="0"
+                                                     LabelTemplate="{StaticResource TimeBarHorizontalAxisLabelDataTemplate}" />
+                </telerik:RadCartesianChart.HorizontalAxis>
+
+                <telerik:RadCartesianChart.VerticalAxis>
+                    <telerik:LinearAxis Visibility="Collapsed"
+                                        MajorTickLength="0"
+                                        MajorStep="0.5"
+                                        LineThickness="0"
+                                        ShowLabels="True"
+                                        LastLabelVisibility="Hidden"
+                                        Maximum="1"
+                                        Minimum="0"
+                                        VerticalContentAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        LabelTemplate="{StaticResource MaxTimeBarAxisLabelDataTemplate}" />
+                </telerik:RadCartesianChart.VerticalAxis>
+
+                <telerik:RadCartesianChart.Series>
+                    <telerik:BarSeries ItemsSource="{Binding MaxCountInfos}"
+                                       ShowLabels="True"
+                                       CombineMode="Stack"
+                                       DefaultVisualStyle="{StaticResource MaxBarStyle}"
+                                       ValueBinding="Value"
+                                       CategoryBinding="CountDateTime">
+                        <telerik:BarSeries.Background>
+                            <SolidColorBrush Color="#0786c2"
+                                             Opacity="0.15" />
+                        </telerik:BarSeries.Background>
+                        <telerik:BarSeries.LabelDefinitions>
+                            <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Template="{StaticResource MaxLabelDateTemplate}" />
+                        </telerik:BarSeries.LabelDefinitions>
+                    </telerik:BarSeries>
+                </telerik:RadCartesianChart.Series>
+            </telerik:RadCartesianChart>
+
+        </Grid>
+    </telerik:RadTimeBar>
+
+</UserControl>
