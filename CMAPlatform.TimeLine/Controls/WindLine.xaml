@@ -1,0 +1,197 @@
+﻿<UserControl x:Class="CMAPlatform.TimeLine.Controls.WindLine"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:converter="clr-namespace:CMAPlatform.TimeLine.Converter"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+             d:DesignWidth="300">
+    <UserControl.Resources>
+        <converter:TimeBarLabelConverter x:Key="BarLabelConverter" />
+        <!-- 水平刻度样式 -->
+        <DataTemplate x:Key="TimeBarHorizontalAxisLabelDataTemplate">
+            <StackPanel Width="0"
+                        Height="0"
+                        Visibility="Collapsed" />
+        </DataTemplate>
+
+        <!--阵风Label样式-->
+        <DataTemplate x:Key="WindLabelDateTemplate"
+                      DataType="telerik:Label">
+            <TextBlock Text="{Binding DataItem.Wind,StringFormat={}{0}级}"
+                       Background="Transparent"
+                       Foreground="#FFFFFF"
+                       FontSize="16"
+                       Visibility="{Binding DataItem.Wind,Converter={StaticResource BarLabelConverter}}" />
+        </DataTemplate>
+
+        <!--平均风力Label样式-->
+        <DataTemplate x:Key="AvrWindLabelDateTemplate"
+                      DataType="telerik:Label">
+            <TextBlock Text="{Binding DataItem.AvrWind,StringFormat={}{0}级}"
+                       Background="Transparent"
+                       Foreground="#FFFFFF"
+                       FontSize="16"
+                       Visibility="{Binding DataItem.AvrWind,Converter={StaticResource BarLabelConverter}}" />
+        </DataTemplate>
+
+        <converter:DayFormat x:Key="DayFormat" />
+        <converter:HourFormat x:Key="HourFormat" />
+        <converter:MinuteFormat x:Key="MinuteFormat" />
+    </UserControl.Resources>
+
+    <Grid>
+        <telerik:RadTimeBar VerticalAlignment="Stretch"
+                            MinZoomRange="00:01:00"
+                            PeriodStart="{Binding StartTime, Mode=TwoWay}"
+                            PeriodEnd="{Binding EndTime, Mode=TwoWay}"
+                            VisiblePeriodStart="{Binding VisibleStartTime, Mode=TwoWay}"
+                            VisiblePeriodEnd="{Binding VisibleEndTime, Mode=TwoWay}"
+                            ScrollMode="ScrollAndZoom"
+                            Background="Transparent"
+                            Style="{StaticResource CustomWindLine}">
+            <telerik:RadTimeBar.Intervals>
+                <telerik:DayInterval FormatterProvider="{StaticResource DayFormat}" />
+                <telerik:HourInterval FormatterProvider="{StaticResource HourFormat}" />
+                <converter:DecadeMinuteInterval />
+                <!--<telerik:MinuteInterval FormatterProvider="{StaticResource MinuteFormat}" />-->
+            </telerik:RadTimeBar.Intervals>
+            <telerik:RadCartesianChart x:Name="WindChart"
+                                       Background="Transparent">
+                <telerik:RadCartesianChart.Grid>
+                    <telerik:CartesianChartGrid MajorLinesVisibility="X"
+                                                MajorXLineDashArray="2,1"
+                                                MajorXLinesRenderMode="All">
+                        <telerik:CartesianChartGrid.MajorXLineStyle>
+                            <Style TargetType="Line">
+                                <Setter Property="Stroke"
+                                        Value="Gray" />
+                            </Style>
+                        </telerik:CartesianChartGrid.MajorXLineStyle>
+                    </telerik:CartesianChartGrid>
+                </telerik:RadCartesianChart.Grid>
+                <telerik:RadCartesianChart.HorizontalAxis>
+                    <telerik:DateTimeCategoricalAxis DateTimeComponent="Hour"
+                                                     GapLength="0.5"
+                                                     MajorTickLength="0"
+                                                     LineThickness="0"
+                                                     LabelTemplate="{StaticResource TimeBarHorizontalAxisLabelDataTemplate}" />
+                </telerik:RadCartesianChart.HorizontalAxis>
+                <telerik:RadCartesianChart.VerticalAxis>
+                    <telerik:LinearAxis Visibility="Hidden"
+                                        x:Name="windLinearAxis"
+                                        MajorTickLength="0"
+                                        LineThickness="0"
+                                        ShowLabels="True"
+                                        LastLabelVisibility="Visible"
+                                        LabelInterval="5"
+                                        LabelFormat="0mm"
+                                        FontSize="18"
+                                        ElementBrush="#ffffff" />
+                </telerik:RadCartesianChart.VerticalAxis>
+                <telerik:RadCartesianChart.Series>
+                    <telerik:LineSeries ItemsSource="{Binding Winds}"
+                                        ShowLabels="True"
+                                        CombineMode="None"
+                                        ValueBinding="Wind"
+                                        CategoryBinding="Time">
+                        <telerik:LineSeries.StrokeShapeStyle>
+                            <Style TargetType="Path">
+                                <Setter Property="Stroke"
+                                        Value="#26C8FE" />
+                                <Setter Property="StrokeThickness"
+                                        Value="3" />
+                            </Style>
+                        </telerik:LineSeries.StrokeShapeStyle>
+                        <telerik:LineSeries.PointTemplate>
+                            <DataTemplate>
+                                <Image Width="30"
+                                       Height="30"
+                                       Stretch="None"
+                                       Source="../Resources/Images/WindIcon.png"
+                                       RenderTransformOrigin="0.5,0.5"
+                                       Visibility="{Binding DataItem.Wind,Converter={StaticResource BarLabelConverter}}">
+                                    <Image.RenderTransform>
+                                        <RotateTransform Angle="{Binding DataItem.WindAngle}"
+                                                         CenterX="0.5"
+                                                         CenterY="0.5" />
+                                    </Image.RenderTransform>
+                                </Image>
+                            </DataTemplate>
+                        </telerik:LineSeries.PointTemplate>
+                        <telerik:LineSeries.LabelDefinitions>
+                            <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                                VerticalAlignment="Top"
+                                                                Format="{}{0}级"
+                                                                Template="{StaticResource WindLabelDateTemplate}" />
+                        </telerik:LineSeries.LabelDefinitions>
+                    </telerik:LineSeries>
+
+                    <telerik:LineSeries ItemsSource="{Binding Winds}"
+                                        ShowLabels="True"
+                                        CombineMode="None"
+                                        ValueBinding="AvrWind"
+                                        CategoryBinding="Time">
+                        <telerik:LineSeries.StrokeShapeStyle>
+                            <Style TargetType="Path">
+                                <Setter Property="Stroke"
+                                        Value="#8C99F0" />
+                                <Setter Property="StrokeThickness"
+                                        Value="3" />
+                            </Style>
+                        </telerik:LineSeries.StrokeShapeStyle>
+                        <telerik:LineSeries.PointTemplate>
+                            <DataTemplate>
+                                <Image Width="30"
+                                       Height="30"
+                                       Stretch="None"
+                                       Source="../Resources/Images/AvrWindIcon.png"
+                                       RenderTransformOrigin="0.5,0.5"
+                                       Visibility="{Binding DataItem.AvrWind,Converter={StaticResource BarLabelConverter}}">
+                                    <Image.RenderTransform>
+                                        <RotateTransform Angle="{Binding DataItem.AvrWindAngle}"
+                                                         CenterX="0.5"
+                                                         CenterY="0.5" />
+                                    </Image.RenderTransform>
+                                </Image>
+                            </DataTemplate>
+                        </telerik:LineSeries.PointTemplate>
+                        <telerik:LineSeries.LabelDefinitions>
+                            <telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center"
+                                                                VerticalAlignment="Top"
+                                                                Format="{}{0}级"
+                                                                Template="{StaticResource AvrWindLabelDateTemplate}" />
+                        </telerik:LineSeries.LabelDefinitions>
+                    </telerik:LineSeries>
+                </telerik:RadCartesianChart.Series>
+            </telerik:RadCartesianChart>
+        </telerik:RadTimeBar>
+
+        <!-- 图例 -->
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Margin="0,10,10,0">
+            <Border Width="25"
+                    Height="25"
+                    Background="#26C8FE"
+                    Margin="0,0,5,0" />
+            <TextBlock Text="阵风"
+                       Foreground="White"
+                       VerticalAlignment="Center"
+                       FontSize="18"
+                       Margin="0,0,10,0" />
+            <Border Width="25"
+                    Height="25"
+                    Background="#8C99F0"
+                    Margin="0,0,5,0" />
+            <TextBlock Text="平均风力"
+                       Foreground="White"
+                       FontSize="18"
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0" />
+        </StackPanel>
+    </Grid>
+</UserControl>

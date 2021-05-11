@@ -1,0 +1,12 @@
+D:\GC\Projects2019\中国气象局\CMAPlatform\output\ACMAPlatform.Header.dll
+D:\GC\Projects2019\中国气象局\CMAPlatform\output\ACMAPlatform.Header.pdb
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\ACMAPlatform.Header.csprojResolveAssemblyReference.cache
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\HeaderView.g.cs
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\ACMAPlatform.Header_MarkupCompile.cache
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\ACMAPlatform.Header_MarkupCompile.lref
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\HeaderView.baml
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\ACMAPlatform.Header.g.resources
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\ACMAPlatform.Header.Properties.Resources.resources
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\ACMAPlatform.Header.csproj.GenerateResource.Cache
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\ACMAPlatform.Header.dll
+D:\GC\Projects2019\中国气象局\CMAPlatform\ACMAPlatform.Header\obj\Debug\ACMAPlatform.Header.pdb

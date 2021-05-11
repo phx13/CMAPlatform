@@ -1,0 +1,142 @@
+﻿<controls:PopWindow x:Class="CMAPlatform.Chart.Window.PreventionMessageWindow"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:controls="clr-namespace:Digihail.AVE.Launcher.Controls;assembly=AVE.Launcher.Controls"
+                    xmlns:controlPage="clr-namespace:CMAPlatform.Chart.Window"
+                    xmlns:view="clr-namespace:CMAPlatform.Chart.View"
+                    xmlns:converter="clr-namespace:CMAPlatform.Chart.Converter"
+                    mc:Ignorable="d"
+                    Height="678"
+                    Width="603"
+                    x:Name="PopWindow"
+                    Title="气象防灾减灾“一本账”"
+                    Style="{StaticResource CMAWindowBaseStyle}">
+    <controls:PopWindow.Resources>
+        <converter:PreventionColorConverter x:Key="PreventionColorConverter" />
+        <converter:PreventionColor_TwoConverter x:Key="PreventionColor_TwoConverter" />
+        <converter:PreventionFontColorConverter x:Key="PreventionFontColorConverter" />
+        <converter:PreventionPercentagetConverter x:Key="PreventionPercentagetConverter" />
+        <ImageBrush x:Key="BackImageBrush_Top"
+                    ImageSource="../Resouces/Images/PreventionMessage_Top.png" />
+        <ImageSource x:Key="PreventImage_Blue">../Resouces/Images/PreventImage_Blue.png</ImageSource>
+        <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" />
+    </controls:PopWindow.Resources>
+    <Grid Margin="0,20,0,0"
+          DataContext="{Binding ProventionMessage,ElementName=PopWindow}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+                    Width="565"
+                    Height="108"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="{StaticResource BackImageBrush_Top}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Border Background="Transparent"
+                        Width="150"
+                        Margin="100,0,0,0"
+                        Grid.Column="0"
+                        MouseDown="GoToUrl_OnMouseDown"
+                        Cursor="Hand" />
+                <Grid Margin="0,0,0,0"
+                      Height="108"
+                      Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="{Binding ProvinceName}"
+                               Grid.Row="0"
+                               FontSize="20"
+                               Margin="50,15,0,0"
+                               Foreground="White" />
+                    <TextBlock Text="{Binding Percent,Converter={StaticResource PreventionPercentagetConverter}}"
+                               Margin="50,-5,0,0"
+                               FontSize="54"
+                               Grid.Row="1"
+                               Foreground="#0CE9F8"
+                               FontFamily="Bebas Neue" />
+
+                </Grid>
+            </Grid>
+
+        </StackPanel>
+        <StackPanel Grid.Row="1"
+                    Width="575">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                          VerticalScrollBarVisibility="Auto"
+                          Height="500">
+                <ItemsControl ItemsSource="{Binding Indicators}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid x:Name="BackGrid">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="
+                          Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Border Grid.Row="0" Height="40">
+                                    <Grid>
+                                        <Image Height="30"
+                                               Width="547"
+                                               Source="{Binding HaveOrNot,Converter={StaticResource PreventionColorConverter}}" />
+                                        <ToggleButton x:Name="togBtn_Category"
+                                                      Content="{Binding Name}"
+                                                      HorizontalAlignment="Left"
+                                                      IsChecked="True"
+                                                      Foreground="{Binding HaveOrNot,Converter={StaticResource PreventionFontColorConverter}}"
+                                                      FontSize="20"
+                                                      Margin="5,0,0,0"
+                                                      Width="547"
+                                                      Style="{StaticResource PreventionMessStyle}" />
+
+                                    </Grid>
+
+                                </Border>
+                                <ItemsControl ItemsSource="{Binding SubIndicators}" Grid.Row="1"
+                                              Visibility="{Binding ElementName=togBtn_Category,Path=IsChecked,Converter={StaticResource booleanToVisibilityConverter}}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid x:Name="BackGrid">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="
+                          auto" />
+                                                </Grid.RowDefinitions>
+                                                <Border Grid.Row="0" Height="40">
+                                                    <Grid>
+                                                        <Image Height="30"
+                                                               Width="547"
+                                                               Source="{Binding HaveOrNot,Converter={StaticResource PreventionColor_TwoConverter}}" />
+                                                        <ToggleButton x:Name="togBtn_Category1"
+                                                                      Content="{Binding Name}"
+                                                                      HorizontalAlignment="Left"
+                                                                      IsChecked="True"
+                                                                      Foreground="{Binding HaveOrNot,Converter={StaticResource PreventionFontColorConverter}}"
+                                                                      FontSize="20"
+                                                                      Margin="5,0,0,0"
+                                                                      Width="547"
+                                                                      Style="{StaticResource PreventionMessStyle}" />
+
+                                                    </Grid>
+
+                                                </Border>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</controls:PopWindow>
