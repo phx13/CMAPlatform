@@ -1,0 +1,21 @@
+﻿<base:ChartViewBase x:Class="CMAPlatform.Chart.View.TimerAutomaticView"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:base="clr-namespace:Digihail.DAD3.Charts.Base;assembly=DAD3.Charts"
+                    mc:Ignorable="d"
+                    Height="50"
+                    Width="200"
+                    Background="Transparent">
+    <Grid Background="Transparent">
+        <Button Width="169"
+                Height="42"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Right"
+                Grid.Column="0"
+                Margin="0,-5,0,0"
+                Style="{StaticResource SelectButtonStyle}"
+                Click="ButtonBase_OnClick" />
+    </Grid>
+</base:ChartViewBase>

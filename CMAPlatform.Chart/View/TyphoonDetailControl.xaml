@@ -1,0 +1,148 @@
+﻿<base:ChartViewBase x:Class="CMAPlatform.Chart.View.TyphoonDetailControl"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:base="clr-namespace:Digihail.DAD3.Charts.Base;assembly=DAD3.Charts"
+                    xmlns:converters="clr-namespace:CMAPlatform.Chart.Converter"
+                    mc:Ignorable="d"
+                    d:DesignHeight="100"
+                    d:DesignWidth="1250">
+
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="TyphoonDetail_TitleTextColor"
+                         Color="#FFC926" />
+        <SolidColorBrush x:Key="TyphoonDetail_LocationTextColor"
+                         Color="#20D8FF" />
+        <SolidColorBrush x:Key="TyphoonDetail_LabelTextColor"
+                         Color="White" />
+        <SolidColorBrush x:Key="TyphoonDetail_BindingValueTextColor"
+                         Color="#FFDC72" />
+
+        <system:Double x:Key="TyphoonDetail_TitleTextSize">48</system:Double>
+        <system:Double x:Key="TyphoonDetail_LocationTextSize">28</system:Double>
+        <system:Double x:Key="TyphoonDetail_BindingValueTextTextSize">24</system:Double>
+
+        <Style x:Key="TyphoonDetailTextStyle"
+               TargetType="TextBlock">
+            <Setter Property="FontFamily"
+                    Value="微软雅黑" />
+            <Setter Property="FontWeight"
+                    Value="Bold" />
+            <Setter Property="HorizontalAlignment"
+                    Value="Left" />
+            <Setter Property="VerticalAlignment"
+                    Value="Bottom" />
+        </Style>
+
+        <converters:TyphoonIntensionConverter x:Key="TyphoonIntensionConverter" />
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="38*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    Margin="0,2">
+            <TextBlock Text="{Binding TyphoonData.Name,StringFormat=台风【{0}】}"
+                       Margin="0,0,20,0"
+                       FontSize="{StaticResource TyphoonDetail_TitleTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_TitleTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Text="{Binding TyphoonData.Id,StringFormat=编号：{0}}"
+                       Margin="0,0,20,0"
+                       FontSize="{StaticResource TyphoonDetail_TitleTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_TitleTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Text="中心位置："
+                       Margin="0,0,20,0"
+                       FontSize="{StaticResource TyphoonDetail_LocationTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_LocationTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Text="{Binding TyphoonData.Lat,StringFormat=N{0}°}"
+                       Margin="0,0,20,0"
+                       FontSize="{StaticResource TyphoonDetail_LocationTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_LocationTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Text="{Binding TyphoonData.Lon,StringFormat=E{0}°}"
+                       Margin="0,0,20,0"
+                       FontSize="{StaticResource TyphoonDetail_LocationTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_LocationTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0"
+                       Text="时间："
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_LabelTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="1"
+                       Margin="0,0,20,0"
+                       Text="{Binding TyphoonData.Time}"
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_BindingValueTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="2"
+                       Text="强度："
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_LabelTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="3"
+                       Margin="0,0,20,0"
+                       Text="{Binding TyphoonData.Intension,Converter={StaticResource TyphoonIntensionConverter}}"
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_BindingValueTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="4"
+                       Text="风速："
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_LabelTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="5"
+                       Margin="0,0,20,0"
+                       x:Name="txtSpeed"
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_BindingValueTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="6"
+                       Text="中心气压："
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_LabelTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="7"
+                       x:Name="txtPressure"
+                       Margin="0,0,20,0"
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_BindingValueTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="8"
+                       Text="移速移向："
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_LabelTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+            <TextBlock Grid.Column="9"
+                       Margin="0,0,20,0"
+                       x:Name="txtGust"
+                       FontSize="{StaticResource TyphoonDetail_BindingValueTextTextSize}"
+                       Foreground="{StaticResource TyphoonDetail_BindingValueTextColor}"
+                       Style="{StaticResource TyphoonDetailTextStyle}" />
+        </Grid>
+    </Grid>
+</base:ChartViewBase>
