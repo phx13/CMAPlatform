@@ -1,8 +1,0 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-
-    <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="pack://application:,,,/Resource;component/Themes/RadTimeBarStyle.xaml" />
-        <ResourceDictionary Source="pack://application:,,,/Resource;component/Themes/RadTimelineStyle.xaml" />
-    </ResourceDictionary.MergedDictionaries>
-
-</ResourceDictionary>
