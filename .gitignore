@@ -1,3 +1,9 @@
-bin/Debug/
-obj/Debug/
+bin/
+obj/
 output/
+package/
+CMAPlatform.TestService/
+CMAPlatform.TestTimeLine/
+CMAPlatform.TestWindow/
+DrawImageTest/
+.vs/
